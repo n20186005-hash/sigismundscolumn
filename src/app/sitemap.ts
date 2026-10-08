@@ -2,7 +2,7 @@ import type { MetadataRoute } from 'next';
 
 const baseUrl = 'https://sigismundscolumn.com';
 const locales = ['pl', 'en', 'zh', 'ru', 'de'] as const;
-const pagePaths = ['', '/privacy-policy', '/terms-of-service', '/cookie-settings'];
+const pagePaths = [''];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = [];

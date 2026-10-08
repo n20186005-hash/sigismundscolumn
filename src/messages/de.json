@@ -14,7 +14,7 @@
     "title": "Sigismundssäule",
     "subtitle": "Historisches Denkmal am Schlossplatz in Warschau · Klassisches Säulenmonument des 17. Jahrhunderts",
     "rating": "4.7",
-    "reviewCount": "18,224",
+    "reviewCount": "18,322",
     "hours": "Rund um die Uhr geöffnet",
     "openMaps": "Standort anzeigen"
   },
@@ -42,11 +42,12 @@
   },
   "knowledge": {
     "title": "Den Charme der Sigismundssäule entdecken",
+    "timelineTitle": "Historischer Zeitstrahl",
     "sections": [
       {
         "id": "history",
         "title": "Jahrhunderte der Hauptstadtverlegung",
-        "content": "Die Sigismundssäule wurde 1644 zu Ehren der Verlegung der Hauptstadt von Krakau nach Warschau durch König Sigismund III. Wasa errichtet und wurde damit das erste freistehende öffentliche Denkmal der Gegend. Über Jahrhunderte diente sie als wichtigster Orientierungspunkt des Schlossplatzes und war Zeugin der Dynastieherrschaft, des Aufblühens der Stadt und großer historischer Umbrüche.\n\nIm Zweiten Weltkrieg erlitt Warschau schwere Zerstörungen: Der Säulenschaft und die Bronzefigur wurden zerstört, das Denkmal teilweise beschädigt. Nach dem Krieg wurde die Stadt vollständig wiederaufgebaut, und dieses klassische Denkmal wurde sorgfältig rekonstruiert – mit getreu nachgebildeter ursprünglicher Form und Bildhauerarbeiten, die den Baustil des 17. Jahrhunderts vollständig bewahren.\n\nHeute ist die Säule nicht mehr nur ein Symbol königlicher Macht, sondern ein Symbol des Wiederauflebens Warschaus. Von der Zerstörung verschont und wiedererrichtet, bewacht sie weiterhin still die Straßen der Altstadt, verbindet Vergangenheit und Gegenwart und ist ein wichtiger Kulturträger – für Touristen ein Schlüssel zur Geschichte Warschaus, für Bewohner eine Möglichkeit, die Erinnerungen der Stadt weiterzugeben."
+        "content": "Die Sigismundssäule wurde 1644 zu Ehren der Verlegung der Hauptstadt von Krakau nach Warschau durch König Sigismund III. Wasa errichtet und wurde damit das erste freistehende öffentliche Denkmal der Gegend. Über Jahrhunderte diente sie als wichtigster Orientierungspunkt des Schlossplatzes und war Zeugin der Dynastieherrschaft, des Aufblühens der Stadt und großer historischer Umbrüche.\n\n1887 bekam der ursprüngliche Granitschaft Risse und wurde ersetzt; das Bruchstück von 1644 ist beim Königsschloss ausgestellt. Während des Warschauer Aufstands 1944 wurde der Schaft von 1887 durch Artilleriefeuer zerstört, doch die originale Bronzefigur des Königs überstand und wurde zur Sicherung abgenommen. 1949 wurde die Säule auf einem neuen Schaft neu errichtet, wieder gekrönt von derselben erhaltenen Bronzefigur aus dem 17. Jahrhundert.\n\nHeute ist die Säule nicht mehr nur ein Symbol königlicher Macht, sondern ein Symbol des Wiederauflebens Warschaus. Von der Zerstörung verschont und wiedererrichtet, bewacht sie weiterhin still die Straßen der Altstadt, verbindet Vergangenheit und Gegenwart und ist ein wichtiger Kulturträger – für Touristen ein Schlüssel zur Geschichte Warschaus, für Bewohner eine Möglichkeit, die Erinnerungen der Stadt weiterzugeben."
       },
       {
         "id": "architecture",
@@ -63,6 +64,12 @@
         "title": "Wichtigste Erlebnisse",
         "content": "Umrunden Sie das Denkmal und halten Sie die Panoramen des Wahrzeichens und die Stimmung des Ortes aus verschiedenen Perspektiven fest. Gehen Sie zur Nordseite des Platzes, um die Fassade des Königsschlosses aus der Nähe zu sehen und die monumentale Würde königlicher Architektur zu spüren. Schlendern Sie am Platzrand entlang und entdecken Sie die bunten historischen Häuser der Altstadt und die angrenzenden Gassen. Wenn die Dämmerung kommt, flutet warmes Licht den Platz, Säule und Altstadtbebauung verschmelzen – der ideale Moment für stimmungsvolle Fotografien im Vintage-Stil."
       }
+    ],
+    "timeline": [
+      { "year": "1644", "title": "Errichtet", "text": "Säule errichtet für Sigismund III. Wasa, der Warschau zur Hauptstadt Polens machte." },
+      { "year": "1887", "title": "Schaft ersetzt", "text": "Der Granitschaft bekam Risse und wurde ersetzt; das Bruchstück von 1644 ist beim Königsschloss ausgestellt." },
+      { "year": "1944", "title": "Kriegsschaden", "text": "Der Schaft von 1887 wurde im Warschauer Aufstand durch Artilleriefeuer zerstört, doch die originale Bronzefigur überstand." },
+      { "year": "1949", "title": "Wiedererrichtet", "text": "Auf einem neuen Schaft neu errichtet und wieder gekrönt von derselben erhaltenen Bronzefigur aus dem 17. Jahrhundert." }
     ]
   },
   "basicInfo": {
@@ -110,7 +117,7 @@
   "transport": {
     "title": "Anreise & Verkehr",
     "airport": "Vom Flughafen Warschau-Chopin",
-    "airportDesc": "Nehmen Sie den Flughafen-Express-Tram oder Überlandbus ins Zentrum, steigen Sie in eine kurze Linie Richtung Altstadt um und gehen Sie 3 Minuten zum Schlossplatz – insgesamt etwa 30 Minuten; rund um die Uhr stehen auch Taxis und Fahrdienste zur Verfügung, bequem für Reisende mit Gepäck.",
+    "airportDesc": "Vom Flughafen fährt der Stadtbus 175 ins Zentrum (Ausstieg bei Plac Piłsudskiego, dann etwa 10 Minuten zu Fuß zum Schlossplatz); die Linien 188 und 148 verlaufen ähnlich. Alternativ mit der SKM oder Mazowieckie-Bahn nach Warszawa Śródmieście und weiter mit der Tram oder zu Fuß (20–25 Min). Taxi oder Fahrdienst dauern etwa 20–30 Minuten, in der Hauptzeit sollten Sie mehr Zeit einplanen.",
     "selfDrive": "Vom Warschauer Hauptbahnhof",
     "selfDriveDesc": "Mit dem Stadt-Tram oder kurzen Buslinien erreichen Sie schnell den Eingang zur Altstadt, von dort 5 Minuten zu Fuß zur Säule; der Nahverkehr fährt häufig und zuverlässig.",
     "bus": "Von anderen Attraktionen im Zentrum",

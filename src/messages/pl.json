@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Kolumna Zygmunta (Warszawa) – przewodnik: godziny, bilety, historia i dojazd",
-    "description": "Kompletny przewodnik po Kolumnie Zygmunta w Warszawie, w Polsce. Godziny otwarcia, dojazd, informacje o biletach, porady dla zwiedzających i zdjęcia. Najbardziej znany świecki pomnik kolumnowy i zabytek Starego Miasta."
+    "title": "Kolumna Zygmunta III Wazy – Historia i Zwiedzanie | Warszawa",
+    "description": "Poznaj Kolumnę Zygmunta (Sigismund's Column) na warszawskim Placu Zamkowym. Historia, bezpłatny wstęp, lokalizacja, dojazd i praktyczne wskazówki dla zwiedzających."
   },
   "header": {
     "home": "Strona główna",
@@ -11,10 +11,10 @@
     "backToHome": "Wróć na stronę główną"
   },
   "hero": {
-    "title": "Kolumna Zygmunta",
-    "subtitle": "Zabytkowy pomnik na Placu Zamkowym w Warszawie · Klasyczny pomnik z XVII wieku",
+    "title": "Kolumna Zygmunta III Wazy",
+    "subtitle": "Plac Zamkowy w Warszawie · Bezpłatnie i całą dobę · Wzniesiona w 1644",
     "rating": "4.7",
-    "reviewCount": "18,224",
+    "reviewCount": "18,322",
     "hours": "Otwarte 24 godziny",
     "openMaps": "Zobacz lokalizację"
   },
@@ -42,11 +42,12 @@
   },
   "knowledge": {
     "title": "Poznaj urok Kolumny Zygmunta",
+    "timelineTitle": "Kalendarium historyczne",
     "sections": [
       {
         "id": "history",
         "title": "Stulecia historii przenosin stolicy",
-        "content": "Kolumna Zygmunta została wzniesiona w 1644 roku dla upamiętnienia przeniesienia przez króla Zygmunta III Wazę stolicy z Krakowa do Warszawy, dzięki czemu stała się pierwszym świeckim pomnikiem publicznym w tej okolicy. Przez setki lat służyła jako główny punkt orientacyjny Placu Zamkowego, będąc świadkiem panowania dynastii, rozkwitu miasta i wielkich przemian historycznych.\n\nW czasie II wojny światowej Warszawa ucierpiała ogromnie — konstrukcja kolumny i brązowa figura zostały zniszczone, a pomnik uległ częściowemu uszkodzeniu. Po wojnie miasto odbudowano w całości, a ten klasyczny zabytek pieczołowicie odtworzono, ściśle powielając pierwotny kształt i detale rzeźbiarskie oraz w pełni zachowując XVII-wieczny styl architektoniczny.\n\nDziś kolumna to już nie tylko symbol władzy królewskiej, lecz symbol odrodzenia Warszawy. Ocalona z zniszczeń i odbudowana, wciąż spokojnie strzeże ulic Starego Miasta, łącząc przeszłość z teraźniejszością i stanowiąc ważny nośnik kultury — dla turystów drogę do poznania historii Warszawy, a dla mieszkańców sposób przekazywania miejskich wspomnień."
+        "content": "Kolumna Zygmunta została wzniesiona w 1644 roku dla upamiętnienia króla Zygmunta III Wazy, który przeniósł stolicę Polski z Krakowa do Warszawy. Zaprojektował ją architekt Constantino Tencalla, a brązową figurę wykonał Clemente Molli — był to pierwszy wolno stojący świecki pomnik Warszawy i jeden z najwcześniejszych pomników kolumnowych na północ od Alp. Oryginalny granitowy trzon popękał i został zastąpiony nowym w 1887 roku; zachowany fragment z 1644 można oglądać przy Zamku Królewskim. Podczas powstania warszawskiego w 1944 roku trzon z 1887 został zniszczony przez ostrzał, ale oryginalna brązowa figura króla przetrwała i została zdjęta dla bezpieczeństwa. Kolumnę wzniesiono ponownie w 1949 roku na nowym trzonie, po raz kolejny wieńcząc ją ocalałą brązową figurą z XVII wieku. Dziś jest symbolem zniszczenia i odbudowy Warszawy oraz naturalnym punktem startu zwiedzania Starego Miasta."
       },
       {
         "id": "architecture",
@@ -63,6 +64,12 @@
         "title": "Najważniejsze doświadczenia",
         "content": "Obejdź pomnik dookoła i uwiecznij panoramę zabytku oraz atmosferę miejsca z wielu perspektyw. Przejdź na północną stronę placu, aby z bliska zobaczyć fasadę Zamku Królewskiego i poczuć monumentalną klasę królewskiej architektury. Spaceruj wzdłuż krawędzi placu, odkrywaj kolorowe, zabytkowe kamienice Starego Miasta i otaczające go wąskie uliczki. Gdy zapada zmierzch, ciepłe światło zalewa plac, a kolumna i zabudowa Starego Miasta zlewają się w jedno — idealny moment na klimatyczne, stylizowane na retro fotografie."
       }
+    ],
+    "timeline": [
+      { "year": "1644", "title": "Wzniesienie", "text": "Kolumna wzniesiona dla upamiętnienia Zygmunta III Wazy, który uczynił Warszawę stolicą Polski." },
+      { "year": "1887", "title": "Wymiana trzonu", "text": "Oryginalny granitowy trzon popękał i został zastąpiony; fragment z 1644 można oglądać przy Zamku Królewskim." },
+      { "year": "1944", "title": "Zniszczenie", "text": "Trzon z 1887 zniszczył ostrzał podczas powstania warszawskiego, ale oryginalna brązowa figura przetrwała." },
+      { "year": "1949", "title": "Odbudowa", "text": "Kolumnę wzniesiono ponownie na nowym trzonie, ponownie wieńcząc ją ocalałą figurą z XVII wieku." }
     ]
   },
   "basicInfo": {
@@ -110,7 +117,7 @@
   "transport": {
     "title": "Dojazd i transport",
     "airport": "Z lotniska Chopina w Warszawie",
-    "airportDesc": "Ekspresowe tramwaje lotniskowe lub autobusy międzymiastowe do centrum, przesiadka na krótkie linie w kierunku Starego Miasta i 3 minuty pieszo na Plac Zamkowy — łącznie ok. 30 minut; przez całą dobę dostępne są też aplikacje transportowe i taksówki, wygodne dla podróżnych z bagażem.",
+    "airportDesc": "Autobus miejski 175 z lotniska dojeżdża do centrum (wysiądź przy Placu Piłsudskiego, stamtąd ok. 10 min spacerem na Plac Zamkowy); podobną trasę mają linie 188 i 148. Można też pociągiem SKM lub Kolei Mazowieckich do stacji Warszawa Śródmieście, a dalej tramwajem lub spacerem (20–25 min). Taksówka lub aplikacja przewozowa zajmuje ok. 20–30 min, ale w szczycie należy liczyć się z korkami.",
     "selfDrive": "Z Dworca Centralnego w Warszawie",
     "selfDriveDesc": "Tramwajem miejskim lub krótkimi liniami autobusowymi szybko dotrzesz do wejścia na Stare Miasto, a stamtąd 5 minut pieszo do kolumny; komunikacja miejska kursuje często i niezawodnie.",
     "bus": "Z innych atrakcji w centrum",

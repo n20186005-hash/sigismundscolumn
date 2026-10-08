@@ -141,7 +141,7 @@ export default async function LocaleLayout({
       '@type': 'AggregateRating',
       ratingValue: '4.7',
       bestRating: '5',
-      reviewCount: '18224',
+      reviewCount: '18322',
     },
     sameAs: [
       mapsUrl,
@@ -177,7 +177,7 @@ export default async function LocaleLayout({
         name: messages?.meta?.title || "Sigismund's Column",
         description: messages?.meta?.description || 'Visitor guide to Sigismund\u2019s Column in Warsaw.',
         inLanguage: langMap[locale] || 'pl',
-        dateModified: '2026-09-04',
+        dateModified: '2026-10-08',
         isPartOf: { '@id': `${baseUrl}/#website` },
         about: { '@id': `${selfUrl}#attraction` },
         primaryImageOfPage: heroImageUrl,

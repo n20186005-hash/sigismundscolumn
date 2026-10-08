@@ -4,6 +4,7 @@ export default function InfoSection() {
   const t = useTranslations('knowledge');
   const messages = useMessages() as any;
   const sections = (messages?.knowledge?.sections || []) as Array<{ id: string; title: string; content: string }>;
+  const timeline = (messages?.knowledge?.timeline || []) as Array<{ year: string; title: string; text: string }>;
 
   return (
     <section className="section-padding" style={{ background: 'var(--bg-secondary)' }}>
@@ -44,6 +45,32 @@ export default function InfoSection() {
             </div>
           ))}
         </div>
+        {timeline.length > 0 && (
+          <div className="mt-14">
+            <h3
+              className="font-display text-2xl font-semibold mb-6"
+              style={{ color: 'var(--text-primary)' }}
+            >
+              {t('timelineTitle')}
+            </h3>
+            <ol className="relative border-l-2 pl-6 space-y-6" style={{ borderColor: 'var(--accent)' }}>
+              {timeline.map((item) => (
+                <li key={item.year} className="relative">
+                  <span
+                    className="absolute -left-[31px] top-1 w-4 h-4 rounded-full"
+                    style={{ background: 'var(--accent)' }}
+                  />
+                  <div className="font-semibold" style={{ color: 'var(--text-primary)' }}>
+                    {item.year} · {item.title}
+                  </div>
+                  <p className="text-base leading-relaxed mt-1" style={{ color: 'var(--text-secondary)' }}>
+                    {item.text}
+                  </p>
+                </li>
+              ))}
+            </ol>
+          </div>
+        )}
       </div>
     </section>
   );

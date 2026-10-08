@@ -29,6 +29,10 @@ export async function generateMetadata({
   };
 
   return {
+    robots: {
+      index: false,
+      follow: true,
+    },
     alternates: {
       canonical: selfUrl,
       languages,

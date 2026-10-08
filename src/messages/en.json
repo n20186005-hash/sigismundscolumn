@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Sigismund's Column (Warsaw) - Visitor Guide & Location",
-    "description": "Complete guide to exploring Sigismund's Column in Warsaw, Poland. Learn about opening hours, transportation, ticket info, travel tips and stunning photos. Poland's most iconic classical memorial column and Old Town cultural landmark."
+    "title": "Sigismund's Column Warsaw | History, Location & Visiting Tips",
+    "description": "Discover Sigismund's Column (Kolumna Zygmunta) in Warsaw's Castle Square. Explore its history, free access, location, directions and visiting tips."
   },
   "header": {
     "home": "Home",
@@ -11,16 +11,16 @@
     "backToHome": "Back to Home"
   },
   "hero": {
-    "title": "Sigismund's Column",
-    "subtitle": "Warsaw Castle Square Core Monument · 17th Century Classical Memorial",
+    "title": "Sigismund's Column (Kolumna Zygmunta)",
+    "subtitle": "Warsaw's Castle Square · Free & open 24 hours · Erected 1644",
     "rating": "4.7",
-    "reviewCount": "18,224",
+    "reviewCount": "18,322",
     "hours": "Open 24 Hours",
     "openMaps": "View Location"
   },
   "intro": {
     "title": "Explore Sigismund's Column",
-    "description": "Honestly, when you step into Warsaw Castle Square, the first thing that catches your eye is this straight-standing Sigismund's Column. It stands quietly in the heart of the Old Town, surrounded by colorful retro European buildings and magnificent royal palace architecture, with an overwhelming vintage atmosphere. I visited on a cool autumn afternoon, the square's breeze gentle, the Old Town's red-tile buildings layered and spread out, the ancient stone column particularly solemn under the clear sky.\n\nThe bronze statue atop the column stands tall and proud, telling the stories of the old dynasty. Visitors walk slowly around, without the noise of over-commercialization, only the unique peaceful atmosphere of the Old Town. Occasionally street performers play classical music, the melody echoing through the square's air, blending with the century-old monument, instantly creating the perfect ambiance.\n\nYou can freely walk around the column, carefully observe the traces of weathering on the stone, touch the texture of the stone steeped in history; or sit on the square's stone steps, watch people come and go, gaze at the entire Warsaw Old Town's vintage street scenes. This monument is not just a check-in landmark, but the spiritual anchor of the entire city.\n\nWhen twilight falls, warm light covers the square, the column and Old Town buildings merge into one, the play of light and shadow gentle and soft. Standing here, you can see the lively pulse of the city, and also read the city's story of war and rebirth. The ancient monument and modern life coexist gently—this is the most moving appearance of Warsaw.",
+    "description": "Sigismund's Column stands in the heart of Warsaw's Castle Square (Plac Zamkowy), at the entrance to the Old Town and directly in front of the Royal Castle. Erected in 1644, it is the oldest secular monument in Warsaw and one of the city's most recognised landmarks. The monument is freely accessible at all hours — there is no ticket office or barrier, so you can walk around the column and the square whenever you like. Most visitors spend 20–40 minutes here, often combining it with a stroll through the Old Town or a visit to the Royal Castle. The square is paved with cobblestones that can be uneven, so comfortable flat shoes are recommended.",
     "visitGuide": {
       "title": "Visiting Tips",
       "items": [
@@ -42,11 +42,12 @@
   },
   "knowledge": {
     "title": "Discover the Charm of Sigismund's Column",
+    "timelineTitle": "History timeline",
     "sections": [
       {
         "id": "history",
         "title": "Centuries of Capital Transfer History",
-        "content": "Sigismund's Column was built in 1644 to commemorate King Sigismund III moving the capital from Kraków to Warsaw, making it the first non-religious public monument in the area. For hundreds of years, it has served as the core landmark of Castle Square, witnessing Polish dynastic rule, urban prosperity, and historical changes.\n\nDuring World War II, Warsaw suffered severe damage, with the column structure and bronze statue destroyed, and the monument was partially damaged. After the war, the city was comprehensively rebuilt, and this classic landmark was precisely restored, strictly replicating the original shape and carving details, completely preserving the 17th-century architectural style.\n\nToday, the column is no longer just a symbol of royal power, but a symbol of Warsaw's rebirth. Having survived destruction and reconstruction, it quietly guards the Old Town streets, connecting the past and present, becoming an important cultural carrier for tourists to understand Warsaw's history and locals to pass down city memories."
+        "content": "Sigismund's Column was erected in 1644 to honour King Sigismund III Vasa, who moved Poland's capital from Kraków to Warsaw. Designed by the architect Constantino Tencalla with a bronze statue by Clemente Molli, it was the first freestanding secular monument in Warsaw and one of the earliest column monuments north of the Alps. The original granite shaft cracked and was replaced in 1887; the broken 1644 fragment is displayed near the Royal Castle. During the 1944 Warsaw Uprising the 1887 shaft was destroyed by artillery fire, but the original bronze statue of the king survived and was taken down for safekeeping. The column was re-erected in 1949 on a new shaft, once again crowned by the surviving 17th-century bronze statue. Today it stands as a symbol of Warsaw's destruction and reconstruction, and a natural starting point for exploring the Old Town."
       },
       {
         "id": "architecture",
@@ -63,6 +64,12 @@
         "title": "Core Experience",
         "content": "Walk around the monument in a circle, shoot the landmark panorama and humanistic atmosphere from multiple angles. Walk to the north side of the square, closely visit the Royal Palace's facade, feel the classical royal architectural momentum. Walk along the square's edge pathways, explore the Old Town's retro colored building clusters and the surrounding minor streets. When twilight falls, warm light covers the square, the column and Old Town buildings merge into one, the play of light and shadow gentle—the perfect moment for atmospheric, vintage-style photography."
       }
+    ],
+    "timeline": [
+      { "year": "1644", "title": "Erected", "text": "Column raised to honour Sigismund III Vasa, marking Warsaw as the capital of Poland." },
+      { "year": "1887", "title": "Shaft replaced", "text": "The original granite shaft cracked and was replaced; the 1644 fragment is kept near the Royal Castle." },
+      { "year": "1944", "title": "War damage", "text": "The 1887 shaft was destroyed in the Warsaw Uprising, but the original bronze statue survived." },
+      { "year": "1949", "title": "Re-erected", "text": "Rebuilt on a new shaft and crowned again by the surviving 17th-century bronze statue." }
     ]
   },
   "basicInfo": {
@@ -110,17 +117,17 @@
   "transport": {
     "title": "Transportation",
     "airport": "From Warsaw Chopin Airport",
-    "airportDesc": "Take airport express trams or intercity buses to the city center, transfer to Old Town direction short-distance transport, 3-minute walk to Castle Square, about 30 minutes total; airport ride-hailing and taxis available 24/7, suitable for travelers with luggage for quick direct access.",
-    "selfDrive": "From Warsaw Central Railway Station",
-    "selfDriveDesc": "Take city trams or short-distance buses to quickly reach the Old Town entrance, 5-minute walk to the column landmark, public transport runs frequently and reliably.",
-    "bus": "From Other City Attractions",
-    "busDesc": "Walking accessible from Palace of Culture and Science, Vistula River banks and other downtown attractions, Old Town street connectivity is strong, suitable for hiking to visit multiple attractions.",
+    "airportDesc": "City bus 175 runs from the airport to the city centre (alight near Plac Piłsudskiego, then a 10-minute walk to Castle Square); buses 188 and 148 follow similar routes. Alternatively, take the SKM or Mazovian Railways train to Warszawa Śródmieście and continue by tram or a 20–25 minute walk. A taxi or rideshare takes about 20–30 minutes, but allow extra time in peak traffic.",
+    "selfDrive": "From Warszawa Centralna (railway station)",
+    "selfDriveDesc": "From Warszawa Centralna take tram 13, 20, 23 or 26 towards Stare Miasto and alight at Plac Zamkowy; the column is a 1-minute walk away. The journey is about 15 minutes and trams run frequently.",
+    "bus": "From Other Central Attractions",
+    "busDesc": "Castle Square is an easy walk from the Palace of Culture and Science (about 20 min), the Vistula river boulevards, and across the Old Town. The area is highly walkable and well connected on foot.",
     "intercity": "City Cycling",
-    "intercityDesc": "The city supports short-distance cycling, with regulated parking points around the square, very convenient for short trips.",
-    "cycling": "Public Transport Tips",
-    "cyclingDesc": "Recommended to purchase Warsaw public transport day pass, unlimited rides on trams, buses and metro, suitable for multi-attraction itinerary travel.",
+    "intercityDesc": "Warsaw's Veturilo bike-share has docking stations around the Old Town; short rides are a convenient way to reach the square.",
+    "cycling": "Public Transport Tickets",
+    "cyclingDesc": "A ZTM 20/90-minute or 24-hour ticket covers trams, buses and the metro. Buy via the jakdojade or mPay apps or ticket machines, and validate on board.",
     "tips": "Travel Tips",
-    "tipsDesc": "Old Town street connectivity is strong, suitable for hiking to visit multiple attractions."
+    "tipsDesc": "The Old Town is best explored on foot. Parking near the square is very limited, so public transport or walking is recommended."
   },
   "route": {
     "title": "Visiting Route",
@@ -430,6 +437,7 @@
     "title": "Frequently Asked Questions",
     "subtitle": "Answers to the questions visitors ask most often about Sigismund's Column.",
     "items": [
+      { "q": "When was Sigismund's Column built, and what happened to it in World War II?", "a": "The column was erected in 1644 to honour King Sigismund III Vasa. The original granite shaft was replaced in 1887. During the 1944 Warsaw Uprising the shaft was destroyed, but the original bronze statue survived and was re-erected on a new shaft in 1949." },
       { "q": "Is visiting Sigismund's Column free?", "a": "Yes. The column is an open-air landmark on Castle Square and is accessible to the public free of charge 24 hours a day, all year round." },
       { "q": "How much time should I plan to spend here?", "a": "Allow about 20–40 minutes to walk around the column, enjoy Castle Square and take photos. If you also visit the Royal Castle or the Old Town, plan at least half a day." },
       { "q": "When is the best time to visit?", "a": "Sunrise and sunset offer the most beautiful light for photography. Summer evenings are lively with street performers, while early mornings are calm and least crowded." },
