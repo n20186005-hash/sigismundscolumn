@@ -15,12 +15,13 @@ const verifiedNearbyPhotos = new Set([
   'warsaw-mermaid-statue','warsaw-barbican','st-johns-archcathedral',
   'kanonia-square','museum-of-warsaw','krasinski-palace',
   'presidential-palace','adam-mickiewicz-monument',
-  'magdalena-abakanowicz-footbridge','multimedia-fountain-vistula-boulevards',
+  'magdalena-abakanowicz-footbridge',
 ]);
 const columnPhotos = [
   '/gallery/images%20(1).jpg','/gallery/images%20(2).jpg',
   '/gallery/images%20(3).jpg','/gallery/images%20(4).jpg',
 ];
+const castleSquarePhoto = '/gallery/images%20(1).jpg';
 
 export function generateStaticParams() {
   return guides.map(g => ({locale:'en', slug: g.slug.split('/')}));
@@ -50,11 +51,12 @@ export default async function GuidePage({params}: Props) {
   const mapsUrl = article.mapUrl || `https://www.google.com/maps/search/?api=1&query=${encodedMap}`;
   const placeSlug = article.slug.startsWith('nearby/') ? article.slug.slice('nearby/'.length) : '';
   const imageUrl = placeSlug
-    ? (verifiedNearbyPhotos.has(placeSlug) ? `/guide-photos/${placeSlug}.jpg` : null)
+    ? (placeSlug === 'castle-square' ? castleSquarePhoto : verifiedNearbyPhotos.has(placeSlug) ? `/guide-photos/${placeSlug}.jpg` : null)
     : article.category === 'Monument history'
       ? columnPhotos[guides.indexOf(article) % columnPhotos.length]
-      : '/guide-photos/castle-square.jpg';
+      : castleSquarePhoto;
   const related = guides.filter(g => g.category === article.category && g.slug !== article.slug).slice(0, 4);
+  const nearby = guides.filter(g => g.category === 'Nearby attractions' && g.slug !== article.slug);
   const canonical = `${root}/${locale}/guides/${article.slug}/`;
   const ld = {
     '@context':'https://schema.org', '@type':'Article', headline:article.title,
@@ -65,7 +67,7 @@ export default async function GuidePage({params}: Props) {
   return <>
     <Header />
     <main className="min-h-screen" style={{background:'var(--bg-primary)',color:'var(--text-primary)'}}>
-      <div className="max-w-5xl mx-auto px-5 py-12 md:py-20">
+      <div className="max-w-5xl mx-auto px-5 pt-28 pb-12 md:pt-32 md:pb-20">
         <nav className="text-sm mb-6" aria-label="Breadcrumb" style={{color:'var(--text-muted)'}}>
           <Link href={`/${locale}`} className="hover:underline">Sigismund's Column</Link> / <Link href={`/${locale}/guides`} className="hover:underline">Visitor guides</Link> / {article.title}
         </nav>
@@ -79,21 +81,21 @@ export default async function GuidePage({params}: Props) {
         </div>}
         <a href={mapsUrl} target="_blank" rel="noopener noreferrer" className="inline-block rounded-full px-6 py-3 font-semibold mb-14" style={{background:'var(--accent)',color:'white'}}>View this place on Google Maps ↗</a>
         {imageUrl && <figure className="mb-14">
-          <img src={imageUrl} alt={placeSlug === 'multimedia-fountain-vistula-boulevards' ? 'Vistula River waterfront in Warsaw, near the mapped fountain area' : placeSlug ? `${article.title}, Warsaw, Poland` : 'Sigismund’s Column and Castle Square in Warsaw'} className="w-full max-h-[540px] rounded-2xl object-cover" loading="eager"/>
+          <img src={imageUrl} alt={placeSlug ? `${article.title}, Warsaw, Poland` : 'Sigismund’s Column and Castle Square in Warsaw'} className="w-full max-h-[540px] rounded-2xl object-cover" loading="eager" width="960" height="720"/>
           <figcaption className="text-xs mt-2" style={{color:'var(--text-muted)'}}>
-            {placeSlug === 'multimedia-fountain-vistula-boulevards' ? 'Vistula riverfront context photo; the specific fountain is not shown.' : placeSlug ? 'Place-matched photo sourced from Wikimedia Commons.' : article.category === 'Monument history' ? 'Existing Sigismund’s Column site photograph.' : 'Castle Square orientation photograph.'}
+            {placeSlug ? 'Place-matched photo sourced from Wikimedia Commons.' : article.category === 'Monument history' ? 'Existing Sigismund’s Column site photograph.' : 'Castle Square orientation photograph.'}
           </figcaption>
         </figure>}
         <div className="grid lg:grid-cols-[minmax(0,1fr)_280px] gap-12">
           <article className="space-y-12 leading-8">
-            {facts && <section>
+            <section>
               <h2 className="font-display text-3xl font-bold mb-4">Discover {article.title}</h2>
-              <p>{article.intro} Use this page to plan the location, understand its historical setting and build a comfortable walk around neighbouring Warsaw landmarks.</p>
+              <p>{article.intro} {article.background}</p>
               <div className="grid md:grid-cols-2 gap-5 mt-6">
                 <div className="rounded-2xl p-5" style={{background:'var(--bg-secondary)'}}><h3 className="font-semibold mb-2">Visit tips</h3><p>{article.visit}</p></div>
                 <div className="rounded-2xl p-5" style={{background:'var(--bg-secondary)'}}><h3 className="font-semibold mb-2">Why it stands out</h3><ul className="list-disc pl-5">{article.highlights.map(h=><li key={h}>{h}</li>)}</ul></div>
               </div>
-            </section>}
+            </section>
             <section className="rounded-2xl p-6 md:p-8" style={{background:'var(--bg-secondary)',border:'1px solid var(--border-color)'}}>
               <p className="text-xs font-bold uppercase tracking-widest mb-3" style={{color:'var(--accent)'}}>About the place · Management and care</p>
               <h2 className="font-display text-3xl font-bold mb-4">About {article.title}</h2>
@@ -121,6 +123,10 @@ export default async function GuidePage({params}: Props) {
               <section><h2 className="font-display text-3xl font-bold mb-4">Tickets and admission</h2><p>{facts.admission}</p></section>
               <section><h2 className="font-display text-3xl font-bold mb-4">Getting here</h2><p>{facts.arrival}</p><p className="mt-4">For the final approach, open <a className="underline" href={mapsUrl} target="_blank" rel="noopener noreferrer">this attraction’s own Google Maps location ↗</a>.</p></section>
             </>}
+            {!facts && <>
+              <section><h2 className="font-display text-3xl font-bold mb-4">When to go and what to budget</h2><p>This is a themed visitor guide, not a separately ticketed attraction. The outdoor Sigismund’s Column and Castle Square setting can be viewed during a self-guided walk, while any museums, transport services, cafés or other stops mentioned in the itinerary set their own hours and prices. Check the individual operator’s current information before travelling.</p></section>
+              <section><h2 className="font-display text-3xl font-bold mb-4">Getting started and local transport</h2><p>{article.route} Most historic Old Town streets around Castle Square are best explored on foot. For bus, tram, metro or parking decisions, consult Warsaw’s current transport information and follow signs for the pedestrian approach.</p></section>
+            </>}
             {detail && <section><h2 className="font-display text-3xl font-bold mb-4">History, design and setting</h2><p>{detail.design}</p></section>}
             <section><h2 className="font-display text-3xl font-bold mb-4">Highlights and what to notice</h2>
               <div className="grid gap-4">{article.highlights.map((item,i) => <div key={item} className="rounded-xl p-5" style={{background:'var(--bg-secondary)',border:'1px solid var(--border-color)'}}><span className="text-sm font-bold mr-3" style={{color:'var(--accent)'}}>0{i+1}</span>{item}</div>)}</div>
@@ -128,6 +134,7 @@ export default async function GuidePage({params}: Props) {
             </section>
             <section><h2 className="font-display text-3xl font-bold mb-4">Planning your visit</h2><p>{article.visit}</p><p className="mt-4">Check any venue's current opening information, ticket requirements and temporary access notices before setting off. Outdoor public spaces and staffed attractions may follow different rules.</p></section>
             {facts && <section><h2 className="font-display text-3xl font-bold mb-4">Visitor essentials</h2><p>{facts.access}</p><p className="mt-4">Plan your walking sequence around the surrounding landmarks rather than visiting only one photo spot. Nearby cafés and indoor venues can make useful weather breaks, provided their own hours and access arrangements suit your day.</p></section>}
+            {!facts && <section><h2 className="font-display text-3xl font-bold mb-4">Visitor essentials</h2><p>Wear comfortable shoes for cobbled streets, allow extra time during crowded events and bring clothing suited to the forecast. Check each indoor venue’s accessibility and photography policies separately. If visiting with children or limited mobility, choose a shorter loop with convenient rest stops.</p></section>}
             <section><h2 className="font-display text-3xl font-bold mb-4">Walking route: step by step</h2><p className="mb-5">{article.route}</p>
               {detail && <ol className="space-y-4">{detail.steps.map((step,i)=><li key={step} className="flex gap-4"><span className="rounded-full shrink-0 w-9 h-9 flex items-center justify-center font-bold" style={{background:'var(--bg-secondary)',color:'var(--accent)'}}>{i+1}</span><span>{step}</span></li>)}</ol>}
               <p className="mt-5">Use <a href={mapsUrl} className="underline" target="_blank" rel="noopener noreferrer">this destination’s Google Maps link</a> to check the final pedestrian approach.</p>
@@ -138,12 +145,18 @@ export default async function GuidePage({params}: Props) {
               <section><h2 className="font-display text-3xl font-bold mb-4">Visitor impressions</h2><p>{facts.reviews}</p></section>
               <section className="rounded-2xl p-6" style={{background:'var(--bg-secondary)'}}><h2 className="font-display text-2xl font-bold mb-4">Location and directions</h2><p className="mb-3">{facts.setting}</p><a className="underline font-semibold" href={mapsUrl} target="_blank" rel="noopener noreferrer">Open the exact destination in Google Maps ↗</a></section>
             </>}
+            {!facts && <section><h2 className="font-display text-3xl font-bold mb-4">Where to stay and how to find the area</h2><p>Old Town accommodation gives easy walking access to Castle Square, whereas a hotel near central Warsaw’s rail and metro connections may suit a wider itinerary. Historic properties can have stairs and restricted vehicle approaches; verify the exact address and arrival arrangements before booking.</p><p className="mt-4"><a className="underline" href={mapsUrl} target="_blank" rel="noopener noreferrer">Open the guide’s starting area on Google Maps ↗</a>.</p></section>}
             <section><h2 className="font-display text-3xl font-bold mb-4">Before you go: common questions</h2>
               <div className="space-y-5">
                 {detail?.questions.map(([question,answer])=><div key={question}><h3 className="font-semibold">{question}</h3><p>{answer}</p></div>)}
                 <div><h3 className="font-semibold">Where should I navigate?</h3><p>Use the destination-specific map link for <strong>{article.mapQuery}</strong>, rather than the map pin for Sigismund’s Column or a different Warsaw attraction.</p></div>
                 <div><h3 className="font-semibold">What else fits into the same visit?</h3><p>{article.route}</p></div>
               </div>
+            </section>
+            <section>
+              <h2 className="font-display text-3xl font-bold mb-4">Explore more nearby attractions</h2>
+              <p className="mb-5">Continue your Warsaw visit with a destination-specific guide. Each link covers its own history, visitor information, walking approach and Google Maps location.</p>
+              <ul className="grid sm:grid-cols-2 gap-3">{nearby.map(g => <li key={g.slug}><Link href={`/${locale}/guides/${g.slug}/`} className="block rounded-xl p-4 hover:underline" style={{background:'var(--bg-secondary)',border:'1px solid var(--border-color)'}}>{g.title} →</Link></li>)}</ul>
             </section>
             {article.source && <p className="text-sm">Further reading: <a className="underline" href={article.source} target="_blank" rel="noopener noreferrer">Official institution information ↗</a></p>}
           </article>
