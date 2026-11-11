@@ -5,6 +5,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { guideBySlug, guides } from '@/data/guides';
 import { guideDetails } from '@/data/guideDetails';
+import { guideStewardship } from '@/data/guideStewardship';
 
 type Props = { params: Promise<{ locale: string; slug: string[] }> };
 const root = 'https://sigismundscolumn.com';
@@ -42,6 +43,7 @@ export default async function GuidePage({params}: Props) {
   const article = guideBySlug.get(slug.join('/'));
   if (!article || locale !== 'en') notFound();
   const detail = guideDetails[article.slug];
+  const stewardship = guideStewardship(article.slug, article.title);
   const encodedMap = encodeURIComponent(article.mapQuery);
   const mapsUrl = article.mapUrl || `https://www.google.com/maps/search/?api=1&query=${encodedMap}`;
   const placeSlug = article.slug.startsWith('nearby/') ? article.slug.slice('nearby/'.length) : '';
@@ -77,9 +79,16 @@ export default async function GuidePage({params}: Props) {
         </figure>}
         <div className="grid lg:grid-cols-[minmax(0,1fr)_280px] gap-12">
           <article className="space-y-12 leading-8">
-            <section>
+            <section className="rounded-2xl p-6 md:p-8" style={{background:'var(--bg-secondary)',border:'1px solid var(--border-color)'}}>
+              <p className="text-xs font-bold uppercase tracking-widest mb-3" style={{color:'var(--accent)'}}>About the place · Management and care</p>
               <h2 className="font-display text-3xl font-bold mb-4">About {article.title}</h2>
-              <p>{article.background}</p>
+              <p className="font-semibold mb-3">Managed or overseen by: {stewardship.manager}</p>
+              <p>{stewardship.context}</p>
+              <p className="mt-4">{article.background}</p>
+              {stewardship.source && <a className="inline-block mt-4 text-sm underline" href={stewardship.source} target="_blank" rel="noopener noreferrer">Institution or city information ↗</a>}
+            </section>
+            <section>
+              <h2 className="font-display text-3xl font-bold mb-4">History and local significance</h2>
               {detail && <p className="mt-4">{detail.story}</p>}
             </section>
             <section className="rounded-2xl p-6" style={{background:'var(--bg-secondary)',border:'1px solid var(--border-color)'}}>
