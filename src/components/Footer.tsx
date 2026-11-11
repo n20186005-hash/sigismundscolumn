@@ -10,6 +10,14 @@ const officialLinkUrls = [
   'https://www.mazovia.pl/',
 ];
 
+const supportContactText: Record<string, string> = {
+  zh: '如需本网站技术支援，请联系：',
+  en: 'For technical support with this website, please contact:',
+  pl: 'W sprawach wsparcia technicznego tej strony skontaktuj się:',
+  ru: 'По техническим вопросам, связанным с этим сайтом, обращайтесь:',
+  de: 'Bei technischen Fragen zu dieser Website kontaktieren Sie bitte:',
+};
+
 const officialLinkNames: Record<string, string[]> = {
   zh: [
     '波兰共和国门户网站（gov.pl）',
@@ -63,6 +71,7 @@ export default function Footer() {
   const locale = useLocale();
   const prefix = `/${locale}`;
   const names = officialLinkNames[locale] || officialLinkNames.en;
+  const supportText = supportContactText[locale] || supportContactText.en;
 
   return (
     <footer
@@ -114,7 +123,7 @@ export default function Footer() {
           <p className="text-xs max-w-3xl mx-auto leading-relaxed">{t('lastUpdated')}</p>
           <p className="text-xs max-w-3xl mx-auto leading-relaxed">{t('photoCredit')}</p>
           <p className="text-xs max-w-3xl mx-auto leading-relaxed">{t('disclaimer')}</p>
-          <p className="text-xs max-w-3xl mx-auto leading-relaxed">如需本網站技術支援，請聯繫： <a className="hover:underline" href="mailto:laupetter72@gmail.com">laupetter72@gmail.com</a></p>
+          <p className="text-xs max-w-3xl mx-auto leading-relaxed">{supportText} <a className="hover:underline" href="mailto:laupetter72@gmail.com">laupetter72@gmail.com</a></p>
         </div>
       </div>
     </footer>

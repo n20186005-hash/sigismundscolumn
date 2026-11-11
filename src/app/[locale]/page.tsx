@@ -1,4 +1,5 @@
 import { getMessages, setRequestLocale } from 'next-intl/server';
+import { uiT } from '@/data/guideUi';
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import Intro from '@/components/Intro';
@@ -29,6 +30,7 @@ export default async function HomePage({
   setRequestLocale(locale);
 
   const messages = (await getMessages()) as any;
+  const t = uiT(locale);
   const faqItems = (messages?.faq?.items || []) as Array<{ q: string; a: string }>;
   const faqJsonLd = {
     '@context': 'https://schema.org',
@@ -49,7 +51,7 @@ export default async function HomePage({
       <main>
         <Hero />
         <Intro />
-        <GuidesPreview />
+        <GuidesPreview locale={locale} />
         <BasicInfo />
         <HoursSection />
         <TicketsSection />
@@ -65,9 +67,9 @@ export default async function HomePage({
         <WeatherSection />
         <MapEmbed />
         <section className="max-w-5xl mx-auto px-5 py-12 text-center">
-          <h2 className="font-display text-3xl font-semibold mb-4" style={{color:'var(--text-primary)'}}>Explore Warsaw visitor guides</h2>
-          <p className="mb-6" style={{color:'var(--text-secondary)'}}>Discover the monument’s history, nearby landmarks, walking routes, transport, food and practical tips.</p>
-          <Link href="/en/guides/" className="inline-block rounded-full px-6 py-3 font-semibold" style={{background:'var(--accent)',color:'white'}}>Browse Warsaw guides →</Link>
+          <h2 className="font-display text-3xl font-semibold mb-4" style={{color:'var(--text-primary)'}}>{t('guidesSectionTitle')}</h2>
+          <p className="mb-6" style={{color:'var(--text-secondary)'}}>{t('guidesSectionText')}</p>
+          <Link href={`/${locale}/guides/`} className="inline-block rounded-full px-6 py-3 font-semibold" style={{background:'var(--accent)',color:'white'}}>{t('guidesSectionCta')}</Link>
         </section>
       </main>
       <Footer />

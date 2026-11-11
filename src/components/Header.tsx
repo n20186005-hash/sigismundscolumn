@@ -11,7 +11,7 @@ export default function Header() {
   const locale = useLocale();
   const pathname = usePathname();
   const isHome = pathname === `/${locale}` || pathname === `/${locale}/`;
-  const nearbyLabel = locale === 'zh' ? '周边景点' : locale === 'pl' ? 'Atrakcje w pobliżu' : locale === 'ja' ? '周辺観光スポット' : locale === 'ko' ? '주변 명소' : 'Nearby Attractions';
+  const nearbyLabel = locale === 'zh' ? '周边景点' : locale === 'pl' ? 'Atrakcje w pobliżu' : locale === 'ru' ? 'Достопримечательности поблизости' : locale === 'de' ? 'Sehenswürdigkeiten in der Nähe' : 'Nearby Attractions';
   const [scrolled, setScrolled] = useState(false);
   const solidHeader = scrolled || !isHome;
 
@@ -36,7 +36,7 @@ export default function Header() {
         </a>
 
         <nav className="hidden md:flex items-center gap-6">
-          <a href="/en/guides/#nearby-attractions" className="text-sm font-semibold transition-colors" style={{ color: solidHeader ? 'var(--accent)' : '#fff' }}>{nearbyLabel}</a>
+          <a href={`/${locale}/guides/`} className="text-sm font-semibold transition-colors" style={{ color: solidHeader ? 'var(--accent)' : '#fff' }}>{nearbyLabel}</a>
           {(['gallery', 'reviews', 'map'] as const).map((section) => (
             <a
               key={section}
@@ -50,7 +50,7 @@ export default function Header() {
         </nav>
 
         <div className="flex items-center gap-2">
-          <a href="/en/guides/#nearby-attractions" className="md:hidden text-xs font-semibold rounded-full px-3 py-2 border" style={{borderColor:'var(--border-color)',color:solidHeader ? 'var(--accent)' : '#fff'}}>{nearbyLabel}</a>
+          <a href={`/${locale}/guides/`} className="md:hidden text-xs font-semibold rounded-full px-3 py-2 border" style={{borderColor:'var(--border-color)',color:solidHeader ? 'var(--accent)' : '#fff'}}>{nearbyLabel}</a>
           <ThemeToggle />
           <LanguageToggle />
         </div>
