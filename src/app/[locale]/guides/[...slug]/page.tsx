@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { guideBySlug, guides } from '@/data/guides';
+import { guideDetails } from '@/data/guideDetails';
 
 type Props = { params: Promise<{ locale: string; slug: string[] }> };
 const root = 'https://sigismundscolumn.com';
@@ -40,6 +41,7 @@ export default async function GuidePage({params}: Props) {
   const {locale, slug} = await params;
   const article = guideBySlug.get(slug.join('/'));
   if (!article || locale !== 'en') notFound();
+  const detail = guideDetails[article.slug];
   const encodedMap = encodeURIComponent(article.mapQuery);
   const mapsUrl = article.mapUrl || `https://www.google.com/maps/search/?api=1&query=${encodedMap}`;
   const placeSlug = article.slug.startsWith('nearby/') ? article.slug.slice('nearby/'.length) : '';
@@ -68,26 +70,43 @@ export default async function GuidePage({params}: Props) {
         <p className="text-xl md:text-2xl leading-relaxed max-w-3xl mb-8" style={{color:'var(--text-secondary)'}}>{article.intro}</p>
         <a href={mapsUrl} target="_blank" rel="noopener noreferrer" className="inline-block rounded-full px-6 py-3 font-semibold mb-14" style={{background:'var(--accent)',color:'white'}}>View this place on Google Maps ↗</a>
         {imageUrl && <figure className="mb-14">
-          <img src={imageUrl} alt={placeSlug ? `${article.title}, Warsaw, Poland` : 'Sigismund’s Column and Castle Square in Warsaw'} className="w-full max-h-[540px] rounded-2xl object-cover" loading="eager"/>
+          <img src={imageUrl} alt={placeSlug === 'multimedia-fountain-vistula-boulevards' ? 'Vistula River waterfront in Warsaw, near the mapped fountain area' : placeSlug ? `${article.title}, Warsaw, Poland` : 'Sigismund’s Column and Castle Square in Warsaw'} className="w-full max-h-[540px] rounded-2xl object-cover" loading="eager"/>
           <figcaption className="text-xs mt-2" style={{color:'var(--text-muted)'}}>
             {placeSlug === 'multimedia-fountain-vistula-boulevards' ? 'Vistula riverfront context photo; the specific fountain is not shown.' : placeSlug ? 'Place-matched photo sourced from Wikimedia Commons.' : article.category === 'Monument history' ? 'Existing Sigismund’s Column site photograph.' : 'Castle Square orientation photograph.'}
           </figcaption>
         </figure>}
         <div className="grid lg:grid-cols-[minmax(0,1fr)_280px] gap-12">
           <article className="space-y-12 leading-8">
-            <section><h2 className="font-display text-3xl font-bold mb-4">Explore the story</h2><p>{article.background}</p></section>
+            <section>
+              <h2 className="font-display text-3xl font-bold mb-4">About {article.title}</h2>
+              <p>{article.background}</p>
+              {detail && <p className="mt-4">{detail.story}</p>}
+            </section>
+            <section className="rounded-2xl p-6" style={{background:'var(--bg-secondary)',border:'1px solid var(--border-color)'}}>
+              <h2 className="font-display text-2xl font-bold mb-4">At a glance</h2>
+              <dl className="grid sm:grid-cols-2 gap-4">
+                <div><dt className="text-sm font-semibold" style={{color:'var(--text-muted)'}}>Destination</dt><dd>{article.title}</dd></div>
+                <div><dt className="text-sm font-semibold" style={{color:'var(--text-muted)'}}>Area</dt><dd>Warsaw, Poland</dd></div>
+                <div><dt className="text-sm font-semibold" style={{color:'var(--text-muted)'}}>Guide type</dt><dd>{article.category}</dd></div>
+                <div><dt className="text-sm font-semibold" style={{color:'var(--text-muted)'}}>Navigation</dt><dd><a href={mapsUrl} target="_blank" rel="noopener noreferrer" className="underline">Google Maps for this location ↗</a></dd></div>
+              </dl>
+            </section>
+            {detail && <section><h2 className="font-display text-3xl font-bold mb-4">History, design and setting</h2><p>{detail.design}</p></section>}
             <section><h2 className="font-display text-3xl font-bold mb-4">Highlights and what to notice</h2>
               <div className="grid gap-4">{article.highlights.map((item,i) => <div key={item} className="rounded-xl p-5" style={{background:'var(--bg-secondary)',border:'1px solid var(--border-color)'}}><span className="text-sm font-bold mr-3" style={{color:'var(--accent)'}}>0{i+1}</span>{item}</div>)}</div>
+              {detail && <ul className="mt-5 list-disc pl-6 space-y-2">{detail.observations.map(point=><li key={point}>{point}</li>)}</ul>}
             </section>
-            <section><h2 className="font-display text-3xl font-bold mb-4">Planning your visit</h2><p>{article.visit}</p><p className="mt-4">For museums, churches and staffed venues, check the operator's latest notices for opening hours, access and tickets. The outdoor column and neighbouring institutions do not share one admission policy.</p></section>
-            <section><h2 className="font-display text-3xl font-bold mb-4">Suggested walking route</h2><p>{article.route}</p><p className="mt-4">Use the place-specific navigation link above to check the precise destination and your walking approach before setting off.</p></section>
-            <section><h2 className="font-display text-3xl font-bold mb-4">Photography tips</h2><p>{article.photo}</p></section>
+            <section><h2 className="font-display text-3xl font-bold mb-4">Planning your visit</h2><p>{article.visit}</p><p className="mt-4">Check any venue's current opening information, ticket requirements and temporary access notices before setting off. Outdoor public spaces and staffed attractions may follow different rules.</p></section>
+            <section><h2 className="font-display text-3xl font-bold mb-4">Walking route: step by step</h2><p className="mb-5">{article.route}</p>
+              {detail && <ol className="space-y-4">{detail.steps.map((step,i)=><li key={step} className="flex gap-4"><span className="rounded-full shrink-0 w-9 h-9 flex items-center justify-center font-bold" style={{background:'var(--bg-secondary)',color:'var(--accent)'}}>{i+1}</span><span>{step}</span></li>)}</ol>}
+              <p className="mt-5">Use <a href={mapsUrl} className="underline" target="_blank" rel="noopener noreferrer">this destination’s Google Maps link</a> to check the final pedestrian approach.</p>
+            </section>
+            <section><h2 className="font-display text-3xl font-bold mb-4">Photography viewpoints</h2><p>{article.photo}</p><p className="mt-4">Keep paths and entrances clear while framing your shot, and follow posted restrictions for museums and places of worship.</p></section>
             <section><h2 className="font-display text-3xl font-bold mb-4">Before you go: common questions</h2>
               <div className="space-y-5">
-                <div><h3 className="font-semibold">How do I find this location?</h3><p>Open the dedicated Google Maps search above for <strong>{article.mapQuery}</strong>, then check your current transport and walking directions.</p></div>
-                <div><h3 className="font-semibold">How should I fit it into an Old Town visit?</h3><p>{article.route}</p></div>
-                <div><h3 className="font-semibold">What should I photograph?</h3><p>{article.photo}</p></div>
-                <div><h3 className="font-semibold">Should I book or check opening times?</h3><p>Outdoor public spaces and indoor attractions follow different arrangements. Consult the relevant venue directly before planning a timed entry.</p></div>
+                {detail?.questions.map(([question,answer])=><div key={question}><h3 className="font-semibold">{question}</h3><p>{answer}</p></div>)}
+                <div><h3 className="font-semibold">Where should I navigate?</h3><p>Use the destination-specific map link for <strong>{article.mapQuery}</strong>, rather than the map pin for Sigismund’s Column or a different Warsaw attraction.</p></div>
+                <div><h3 className="font-semibold">What else fits into the same visit?</h3><p>{article.route}</p></div>
               </div>
             </section>
             {article.source && <p className="text-sm">Further reading: <a className="underline" href={article.source} target="_blank" rel="noopener noreferrer">Official institution information ↗</a></p>}
