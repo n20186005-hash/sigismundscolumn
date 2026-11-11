@@ -31,6 +31,7 @@ export default function Header() {
         </a>
 
         <nav className="hidden md:flex items-center gap-6">
+          <a href="/en/guides/" className="text-sm font-semibold transition-colors" style={{ color: scrolled ? 'var(--accent)' : '#fff' }}>Explore 37 Guides</a>
           {(['gallery', 'reviews', 'map'] as const).map((section) => (
             <a
               key={section}
@@ -44,6 +45,7 @@ export default function Header() {
         </nav>
 
         <div className="flex items-center gap-2">
+          <a href="/en/guides/" className="md:hidden text-xs font-semibold rounded-full px-3 py-2 border border-white/30" style={{color:scrolled ? 'var(--accent)' : '#fff'}}>Guides</a>
           <ThemeToggle />
           <LanguageToggle />
         </div>

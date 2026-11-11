@@ -18,6 +18,7 @@ import WeatherSection from '@/components/WeatherSection';
 import MapEmbed from '@/components/MapEmbed';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
+import GuidesPreview from '@/components/GuidesPreview';
 
 export default async function HomePage({
   params,
@@ -48,6 +49,7 @@ export default async function HomePage({
       <main>
         <Hero />
         <Intro />
+        <GuidesPreview />
         <BasicInfo />
         <HoursSection />
         <TicketsSection />
