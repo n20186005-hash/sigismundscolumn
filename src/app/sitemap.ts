@@ -1,4 +1,5 @@
 import type { MetadataRoute } from 'next';
+import {guides} from '@/data/guides';
 
 const baseUrl = 'https://sigismundscolumn.com';
 const locales = ['pl', 'en', 'zh', 'ru', 'de'] as const;
@@ -21,7 +22,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
       entries.push({
         url: `${baseUrl}${urlPath}`,
-        lastModified: new Date('2026-09-04'),
+        lastModified: path === '' ? new Date('2026-09-04') : new Date('2026-11-11'),
         changeFrequency: path === '' ? 'weekly' : 'monthly',
         priority: path === '' ? 1.0 : 0.6,
         alternates: {
@@ -29,6 +30,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
         },
       });
     }
+  }
+  for (const path of ['/guides', ...guides.map(g => `/guides/${g.slug}`)]) {
+    entries.push({
+      url: `${baseUrl}/en${path}`,
+      lastModified: new Date('2026-11-11'),
+      changeFrequency: 'monthly',
+      priority: path === '/guides' ? 0.8 : 0.7,
+    });
   }
 
   return entries;

@@ -17,6 +17,7 @@ import FAQSection from '@/components/FAQSection';
 import WeatherSection from '@/components/WeatherSection';
 import MapEmbed from '@/components/MapEmbed';
 import Footer from '@/components/Footer';
+import Link from 'next/link';
 
 export default async function HomePage({
   params,
@@ -61,6 +62,11 @@ export default async function HomePage({
         <FAQSection />
         <WeatherSection />
         <MapEmbed />
+        <section className="max-w-5xl mx-auto px-5 py-12 text-center">
+          <h2 className="font-display text-3xl font-semibold mb-4" style={{color:'var(--text-primary)'}}>Explore Warsaw visitor guides</h2>
+          <p className="mb-6" style={{color:'var(--text-secondary)'}}>Discover the monument’s history, nearby landmarks, walking routes, transport, food and practical tips.</p>
+          <Link href="/en/guides/" className="inline-block rounded-full px-6 py-3 font-semibold" style={{background:'var(--accent)',color:'white'}}>Browse Warsaw guides →</Link>
+        </section>
       </main>
       <Footer />
       <script
