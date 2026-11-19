@@ -11,6 +11,8 @@ const featured = [
   'nearby/warsaw-barbican',
   'nearby/kanonia-wishing-bell',
   'nearby/gnojna-gora-viewpoint',
+  'nearby/jesuit-church-warsaw',
+  'nearby/st-martins-church-warsaw',
   'nearby/magdalena-abakanowicz-footbridge',
   'nearby/multimedia-fountain-vistula-boulevards',
   'routes/old-town-walking-tour',

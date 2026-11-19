@@ -21,6 +21,7 @@ const verifiedNearbyPhotos = new Set([
   'presidential-palace','adam-mickiewicz-monument',
   'magdalena-abakanowicz-footbridge','multimedia-fountain-vistula-boulevards',
   'kanonia-wishing-bell','gnojna-gora-viewpoint',
+  'jesuit-church-warsaw','st-martins-church-warsaw',
 ]);
 const columnPhotos = [
   '/gallery/images%20(1).jpg','/gallery/images%20(2).jpg',
