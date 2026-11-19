@@ -22,6 +22,7 @@ const verifiedNearbyPhotos = new Set([
   'magdalena-abakanowicz-footbridge','multimedia-fountain-vistula-boulevards',
   'kanonia-wishing-bell','gnojna-gora-viewpoint',
   'jesuit-church-warsaw','st-martins-church-warsaw',
+  'old-town-defensive-walls','st-annes-viewing-terrace',
 ]);
 const columnPhotos = [
   '/gallery/images%20(1).jpg','/gallery/images%20(2).jpg',
@@ -105,7 +106,8 @@ export default async function GuidePage({params}: Props) {
         {facts && <div className="flex flex-wrap gap-3 mb-6 text-sm font-semibold">
           <span className="rounded-full px-4 py-2" style={{background:'var(--bg-secondary)'}}>{facts.kind}</span>
           <span className="rounded-full px-4 py-2" style={{background:'var(--bg-secondary)'}}>{t('suggestedVisit')} {facts.visitLength}</span>
-          <span className="rounded-full px-4 py-2" style={{background:'var(--bg-secondary)'}}>{t('checkAccess')}</span>
+          <span className="rounded-full px-4 py-2" style={{background:'var(--bg-secondary)'}}>{facts.hours}</span>
+          <a className="rounded-full px-4 py-2 underline" href={mapsUrl} target="_blank" rel="noopener noreferrer" style={{background:'var(--bg-secondary)'}}>{facts.setting} ↗</a>
         </div>}
         <a href={mapsUrl} target="_blank" rel="noopener noreferrer" className="inline-block rounded-full px-6 py-3 font-semibold mb-14" style={{background:'var(--accent)',color:'white'}}>{t('mapsButton')} ↗</a>
         {imageUrl && <figure className="mb-14">
