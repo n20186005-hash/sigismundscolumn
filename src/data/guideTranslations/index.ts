@@ -20,4 +20,4 @@ export function getGuideTranslation(locale: string, slug: string): GuideTranslat
   return map[key][slug] || enTranslations[slug];
 }
 
-export type { GuideTranslation, GuideTranslationFacts, Locale, GuideTranslationsBySlug };
+export type { GuideTranslation, GuideTranslationFacts, Locale, GuideTranslationsBySlug } from './types';
