@@ -19,13 +19,13 @@ const verifiedNearbyPhotos = new Set([
   'warsaw-mermaid-statue','warsaw-barbican','st-johns-archcathedral',
   'kanonia-square','museum-of-warsaw','krasinski-palace',
   'presidential-palace','adam-mickiewicz-monument',
-  'magdalena-abakanowicz-footbridge',
+  'magdalena-abakanowicz-footbridge','multimedia-fountain-vistula-boulevards',
 ]);
 const columnPhotos = [
   '/gallery/images%20(1).jpg','/gallery/images%20(2).jpg',
   '/gallery/images%20(3).jpg','/gallery/images%20(4).jpg',
 ];
-const castleSquarePhoto = '/gallery/images%20(1).jpg';
+const castleSquarePhoto = '/guide-photos/castle-square.jpg';
 
 export function generateStaticParams() {
   const out: { locale: string; slug: string[] }[] = [];
@@ -73,7 +73,7 @@ export default async function GuidePage({params}: Props) {
   const mapsUrl = article.mapUrl || `https://www.google.com/maps/search/?api=1&query=${encodedMap}`;
   const placeSlug = article.slug.startsWith('nearby/') ? article.slug.slice('nearby/'.length) : '';
   const imageUrl = placeSlug
-    ? (placeSlug === 'castle-square' ? castleSquarePhoto : verifiedNearbyPhotos.has(placeSlug) ? `/guide-photos/${placeSlug}.jpg` : null)
+    ? (verifiedNearbyPhotos.has(placeSlug) ? `/guide-photos/${placeSlug}.jpg` : null)
     : article.category === 'Monument history'
       ? columnPhotos[guides.indexOf(article) % columnPhotos.length]
       : castleSquarePhoto;
@@ -136,7 +136,6 @@ export default async function GuidePage({params}: Props) {
               <h2 className="font-display text-3xl font-bold mb-4">{t('aboutTitle', {title: tr.title})}</h2>
               <p className="font-semibold mb-3">{t('managedBy')} {tr.manager}</p>
               <p>{tr.context}</p>
-              <p className="mt-4">{tr.background}</p>
               {tr.source && <a className="inline-block mt-4 text-sm underline" href={tr.source} target="_blank" rel="noopener noreferrer">{t('institutionLink')} ↗</a>}
             </section>
             <section>
