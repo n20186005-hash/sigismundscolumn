@@ -3,6 +3,7 @@ import { plTranslations } from './pl';
 import { zhTranslations } from './zh';
 import { ruTranslations } from './ru';
 import { deTranslations } from './de';
+import { newNearbyTranslation } from './newNearby';
 import type { GuideTranslation, Locale, GuideTranslationsBySlug } from './types';
 
 const map: Record<Locale, GuideTranslationsBySlug> = {
@@ -17,7 +18,7 @@ const supported: Locale[] = ['pl', 'en', 'zh', 'ru', 'de'];
 
 export function getGuideTranslation(locale: string, slug: string): GuideTranslation | undefined {
   const key = (supported as string[]).includes(locale) ? (locale as Locale) : 'en';
-  return map[key][slug] || enTranslations[slug];
+  return newNearbyTranslation(key,slug) || map[key][slug] || enTranslations[slug];
 }
 
 export type { GuideTranslation, GuideTranslationFacts, Locale, GuideTranslationsBySlug } from './types';

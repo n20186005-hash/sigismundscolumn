@@ -9,6 +9,8 @@ const featured = [
   'nearby/old-town-market-square',
   'nearby/warsaw-mermaid-statue',
   'nearby/warsaw-barbican',
+  'nearby/kanonia-wishing-bell',
+  'nearby/gnojna-gora-viewpoint',
   'nearby/magdalena-abakanowicz-footbridge',
   'nearby/multimedia-fountain-vistula-boulevards',
   'routes/old-town-walking-tour',

@@ -8,6 +8,20 @@ export type GuideDetail = {
   questions: [string,string][];
 };
 export const guideDetails: Record<string,GuideDetail> = {
+  'nearby/kanonia-wishing-bell': {
+    story:'Kanonia was closely tied to the cathedral and its clergy. The old bell now standing in its courtyard has become a small but memorable stop on Warsaw’s Old Town route. Its wish-making tradition is a visitor custom, not a scheduled event or an official promise.',
+    design:'At close range, the bell’s cast reliefs, ornamental bands and lettering reward observation. The object is deliberately experienced at human scale, framed by uneven cobbles and the historic residential façades rather than a tall bell tower.',
+    observations:['Read the visible lettering and look for the cast ornament without touching fragile details.','Step back to see the relationship between bell and Kanonia’s courtyard.','Compare the quiet scale with the cathedral façade and Castle Square nearby.'],
+    steps:['Begin at Sigismund’s Column in Castle Square.','Walk along Świętojańska toward St. John’s Archcathedral.','Turn behind the cathedral into Kanonia and find the bell.','Continue through Old Town streets toward Market Square.'],
+    questions:[['Where is the wishing bell?','It stands outdoors in Kanonia, behind St. John’s Archcathedral rather than in Castle Square.'],['Is there a ticket or ceremony?','The open-air bell is a short public-space stop; wishing traditions are informal and any site rules should be respected.']]
+  },
+  'nearby/gnojna-gora-viewpoint': {
+    story:'Warsaw’s Old Town rises above the Vistula on an escarpment. Gnojna Góra takes its name from a less picturesque historic use of this slope, but its present-day role is a lookout over the river and Praga beyond. This change in use is itself part of the story of the city’s public spaces.',
+    design:'The lookout is defined more by topography and its open terrace than by a single monumental building. The curved railing creates a natural foreground line, while the river and right bank form the wider composition.',
+    observations:['Identify the Vistula and the development across the water.','Turn toward the Old Town buildings to see how the terrace meets the escarpment.','Compare the broad panorama here with the enclosed perspective of Market Square.'],
+    steps:['Walk east from Old Town Market Square toward Brzozowa Street.','Locate the public viewpoint terrace on the escarpment.','Pause at the railing and compare river and right-bank views.','Return through Kanonia and the cathedral area to Castle Square.'],
+    questions:[['Is this the St. Anne’s Church viewing tower?','No. Gnojna Góra is an outdoor terrace on the Old Town escarpment; St. Anne’s tower is a separate attraction.'],['When is the view best?','Clear daylight is useful for reading the river landscape, while late afternoon may add atmosphere; avoid exposed edges during poor weather.']]
+  },
   'history': {
     story:'The column was unveiled in November 1644 at the initiative of Władysław IV, who used the monument to honour his father, Sigismund III Vasa. The decision to place a ruler high above a busy public square helped establish a new language for secular monuments in early modern Europe. Its later destruction and reconstruction also make it a visible record of Warsaw’s twentieth-century history.',
     design:'Look at the monument as a sequence of parts: the elevated figure, its capital, the long shaft, the inscription-bearing pedestal and the square around it. The monument was intended to be read from a distance and then examined more closely. Compare the present shaft with the surviving historic fragments near the Royal Castle rather than assuming every visible stone dates to 1644.',

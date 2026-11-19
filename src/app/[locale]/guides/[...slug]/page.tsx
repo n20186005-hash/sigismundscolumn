@@ -20,6 +20,7 @@ const verifiedNearbyPhotos = new Set([
   'kanonia-square','museum-of-warsaw','krasinski-palace',
   'presidential-palace','adam-mickiewicz-monument',
   'magdalena-abakanowicz-footbridge','multimedia-fountain-vistula-boulevards',
+  'kanonia-wishing-bell','gnojna-gora-viewpoint',
 ]);
 const columnPhotos = [
   '/gallery/images%20(1).jpg','/gallery/images%20(2).jpg',
