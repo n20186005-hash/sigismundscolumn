@@ -5,6 +5,87 @@ type Item = { heading: string; points: [string, string, string]; links: string[]
 type Topic = Partial<Record<Locale, Item>>;
 
 export const searchIntentGuides: Record<string, Topic> = {
+  'nearby/royal-castle-warsaw': {
+    en: {heading:'Royal Castle Warsaw: choose the museum visit that fits your day',points:[
+      'The Royal Castle is a museum and former royal residence on Castle Square. Its history reaches back to the Mazovian dukes and later the Polish monarchs; the present building also tells the story of wartime destruction and painstaking reconstruction.',
+      'Before buying a ticket, compare the official museum routes and current exhibitions. The castle offers royal rooms, state and parliamentary spaces, and art collections; not every gallery is necessarily included in every route.',
+      'See the façade and Sigismund’s Column together from Plac Zamkowy, then visit the interior if your schedule allows. The square itself is a separate public space, with different access arrangements.'
+    ],links:['sigismund-iii-vasa','nearby/castle-square','nearby/st-johns-archcathedral']},
+    pl: {heading:'Zamek Królewski w Warszawie: jak zaplanować zwiedzanie muzeum',points:[
+      'Zamek Królewski jest muzeum i dawną rezydencją władców przy Placu Zamkowym. Jego dzieje sięgają książąt mazowieckich, a obecna budowla opowiada także historię zniszczeń wojennych i odbudowy.',
+      'Przed zakupem biletu porównaj aktualne trasy zwiedzania i wystawy. Do zobaczenia są apartamenty królewskie, sale państwowe i parlamentarne oraz zbiory sztuki; zakres dostępnych sal zależy od wybranej trasy.',
+      'Z Placu Zamkowego obejrzyj razem fasadę zamku i Kolumnę Zygmunta, a potem — jeśli czas pozwala — wnętrza. Sam plac jest odrębną przestrzenią publiczną.'
+    ],links:['sigismund-iii-vasa','nearby/castle-square','nearby/st-johns-archcathedral']},
+    zh: {heading:'华沙皇家城堡：如何安排博物馆参观',points:[
+      '皇家城堡位于城堡广场，是昔日王室居所和今日的博物馆。它的历史可追溯至马佐夫舍公爵，今日建筑也见证了二战破坏及精细重建。',
+      '购票前比较博物馆公布的路线与展览：皇家居室、国家与议会厅室及艺术收藏不一定全部包含在同一参观线路中。',
+      '先从城堡广场一起观察城堡外立面与齐格蒙特圆柱；时间充足再参观内部。广场是另一个公共空间，进入规则与博物馆不同。'
+    ],links:['sigismund-iii-vasa','nearby/castle-square','nearby/st-johns-archcathedral']},
+    ru: {heading:'Королевский замок в Варшаве: как выбрать музейный маршрут',points:[
+      'Королевский замок — музей и бывшая резиденция правителей на Замковой площади. Его история восходит к мазовецким князьям, а нынешнее здание рассказывает также о военном разрушении и восстановлении.',
+      'До покупки билета сравните официальные маршруты и выставки. Королевские покои, государственные и парламентские залы и художественные коллекции могут входить в разные программы посещения.',
+      'Сначала рассмотрите фасад замка и колонну Сигизмунда с площади, затем при наличии времени посетите интерьеры. Сама площадь — отдельное общественное пространство.'
+    ],links:['sigismund-iii-vasa','nearby/castle-square','nearby/st-johns-archcathedral']},
+    de: {heading:'Königsschloss Warschau: den passenden Museumsrundgang wählen',points:[
+      'Das Königsschloss ist Museum und ehemalige königliche Residenz am Schlossplatz. Seine Geschichte reicht bis zu den masowischen Herzögen zurück; das heutige Gebäude erzählt auch von Kriegszerstörung und Wiederaufbau.',
+      'Vergleichen Sie vor dem Ticketkauf die offiziellen Rundgänge und Ausstellungen. Königliche Appartements, Staats- und Parlamentsräume sowie Kunstsammlungen sind je nach Besuchsroute unterschiedlich zugänglich.',
+      'Betrachten Sie zuerst die Schlossfassade zusammen mit der Sigismundssäule vom Plac Zamkowy aus und besuchen Sie bei genügend Zeit die Innenräume. Der Platz ist ein eigener öffentlicher Bereich.'
+    ],links:['sigismund-iii-vasa','nearby/castle-square','nearby/st-johns-archcathedral']},
+  },
+  'nearby/old-town-market-square': {
+    en: {heading:'Old Town Market Square: mermaid, townhouses and city history',points:[
+      'Rynek Starego Miasta is the historic commercial heart of Warsaw’s Old Town, not Castle Square. Its colourful townhouse fronts show the remarkable post-war rebuilding of the city.',
+      'Look for the Mermaid statue in the square, then walk its four sides to compare painted façades, architectural details and the changing perspectives at each corner.',
+      'The Museum of Warsaw occupies historic buildings here and is a strong indoor companion to the square. Continue toward the Barbican, or return by the cathedral to Sigismund’s Column.'
+    ],links:['nearby/warsaw-mermaid-statue','nearby/museum-of-warsaw','nearby/warsaw-barbican']},
+    pl: {heading:'Rynek Starego Miasta: Syrenka, kamienice i historia Warszawy',points:[
+      'Rynek Starego Miasta to historyczne serce handlowe Starówki, inne miejsce niż Plac Zamkowy. Kolorowe fasady kamienic świadczą o niezwykłej powojennej odbudowie miasta.',
+      'Odszukaj pomnik Syrenki, a potem obejdź cztery pierzeje, porównując malowane elewacje, detale architektury i widoki z narożników.',
+      'Muzeum Warszawy mieści się w zabytkowych kamienicach przy rynku i dobrze uzupełnia spacer. Dalej możesz pójść do Barbakanu lub wrócić przez katedrę do Kolumny Zygmunta.'
+    ],links:['nearby/warsaw-mermaid-statue','nearby/museum-of-warsaw','nearby/warsaw-barbican']},
+    zh: {heading:'华沙老城市场广场：美人鱼、彩色排屋与城市历史',points:[
+      'Rynek Starego Miasta 是华沙老城传统商业中心，与城堡广场不是同一地点。彩色排屋外立面体现了战后城市重建的成果。',
+      '先寻找广场中的华沙美人鱼雕像，再绕四边观察彩绘外墙、建筑细节及不同街角形成的透视。',
+      '华沙博物馆位于广场周边的历史建筑中，适合与户外步行结合。下一站可到瓮城，也可经过主教座堂返回齐格蒙特圆柱。'
+    ],links:['nearby/warsaw-mermaid-statue','nearby/museum-of-warsaw','nearby/warsaw-barbican']},
+    ru: {heading:'Рыночная площадь Старого города: Сирена, дома и история',points:[
+      'Rynek Starego Miasta — историческое торговое сердце Старого города, отличное от Замковой площади. Цветные фасады домов отражают масштаб послевоенного восстановления.',
+      'Найдите статую Сирены, затем обойдите четыре стороны площади, рассматривая росписи, детали зданий и виды с углов.',
+      'Музей Варшавы расположен в исторических домах у площади и дополняет прогулку. Далее можно идти к Барбакану или вернуться через собор к колонне Сигизмунда.'
+    ],links:['nearby/warsaw-mermaid-statue','nearby/museum-of-warsaw','nearby/warsaw-barbican']},
+    de: {heading:'Altstadtmarkt Warschau: Meerjungfrau, Bürgerhäuser und Geschichte',points:[
+      'Der Rynek Starego Miasta ist das historische Handelszentrum der Altstadt und nicht mit dem Schlossplatz zu verwechseln. Die farbigen Bürgerhäuser zeugen vom Wiederaufbau nach dem Krieg.',
+      'Suchen Sie die Meerjungfrauenstatue und umrunden Sie dann den Platz, um bemalte Fassaden, Architekturdetails und unterschiedliche Blickwinkel zu vergleichen.',
+      'Das Museum von Warschau liegt in historischen Häusern am Platz und ergänzt den Rundgang. Weiter geht es zum Barbakan oder über die Kathedrale zurück zur Sigismundssäule.'
+    ],links:['nearby/warsaw-mermaid-statue','nearby/museum-of-warsaw','nearby/warsaw-barbican']},
+  },
+  'sigismund-iii-vasa': {
+    en: {heading:'Sigismund III Vasa: the king behind the Warsaw column',points:[
+      'Sigismund III Vasa ruled the Polish–Lithuanian Commonwealth from 1587 to 1632. His Swedish dynasty and the growing importance of the royal court in Warsaw shaped the city’s political history.',
+      'Avoid treating the shift from Kraków to Warsaw as a single administrative event: the royal court gradually settled in Warsaw while Kraków retained important ceremonial roles.',
+      'The king did not commission his own monument. His son Władysław IV ordered the column, unveiled in 1644. Compare its sword, cross and Latin inscriptions with the royal history presented at the nearby castle.'
+    ],links:['history','inscriptions-symbols','nearby/royal-castle-warsaw']},
+    pl: {heading:'Zygmunt III Waza: król upamiętniony warszawską kolumną',points:[
+      'Zygmunt III Waza panował w Rzeczypospolitej w latach 1587–1632. Jego dynastyczne związki ze Szwecją oraz rosnąca rola dworu w Warszawie wpłynęły na dzieje miasta.',
+      'Przenosin z Krakowa do Warszawy nie należy przedstawiać jako pojedynczego aktu administracyjnego: dwór stopniowo osiadł w Warszawie, a Kraków zachował ważne funkcje ceremonialne.',
+      'Król nie ufundował własnego pomnika. Kolumnę, odsłoniętą w 1644 roku, zlecił jego syn Władysław IV. Porównaj miecz, krzyż i łacińskie inskrypcje z historią pokazywaną w Zamku Królewskim.'
+    ],links:['history','inscriptions-symbols','nearby/royal-castle-warsaw']},
+    zh: {heading:'齐格蒙特三世·瓦萨：华沙纪念圆柱上的国王',points:[
+      '齐格蒙特三世·瓦萨于 1587—1632 年统治波兰立陶宛联邦。其瑞典王朝背景，以及王廷在华沙影响力的增长，塑造了城市政治历史。',
+      '不要把王廷从克拉科夫转向华沙理解为单次行政迁都：王廷逐步在华沙常驻，克拉科夫仍保留重要礼仪职能。',
+      '国王并非亲自为自己立柱。纪念圆柱由其子瓦迪斯瓦夫四世下令建造，于 1644 年揭幕；可将雕像的剑、十字架及拉丁铭文与皇家城堡展出的历史相互对照。'
+    ],links:['history','inscriptions-symbols','nearby/royal-castle-warsaw']},
+    ru: {heading:'Сигизмунд III Ваза: король на варшавской колонне',points:[
+      'Сигизмунд III Ваза правил Речью Посполитой в 1587–1632 годах. Его связи со шведской династией и возрастающая роль королевского двора в Варшаве повлияли на историю города.',
+      'Переезд из Кракова в Варшаву не был единовременным административным актом: двор обосновывался здесь постепенно, а Краков сохранял важные церемониальные функции.',
+      'Король не заказывал себе памятник. Колонну, открытую в 1644 году, возвёл по инициативе его сына Владислава IV. Сравните меч, крест и латинские надписи с экспозицией Королевского замка.'
+    ],links:['history','inscriptions-symbols','nearby/royal-castle-warsaw']},
+    de: {heading:'Sigismund III. Wasa: der König auf der Warschauer Säule',points:[
+      'Sigismund III. Wasa regierte die polnisch-litauische Adelsrepublik von 1587 bis 1632. Seine schwedischen Dynastieverbindungen und die wachsende Rolle des Hofes in Warschau prägten die Stadt.',
+      'Der Wechsel von Krakau nach Warschau war kein einzelner Verwaltungsakt: Der Hof ließ sich schrittweise in Warschau nieder, während Krakau wichtige zeremonielle Aufgaben behielt.',
+      'Der König ließ sein Denkmal nicht selbst errichten. Sein Sohn Władysław IV. gab die 1644 enthüllte Säule in Auftrag. Vergleichen Sie Schwert, Kreuz und lateinische Inschriften mit der Geschichte im Königsschloss.'
+    ],links:['history','inscriptions-symbols','nearby/royal-castle-warsaw']},
+  },
   'transport/warsaw-central-station': {
     en: {heading: 'Warszawa Centralna to Warsaw Old Town: make the last connection', points: [
       'Warszawa Centralna is the main central railway station; Castle Square and Sigismund’s Column are in the pedestrian Old Town, not at the railway platforms.',
