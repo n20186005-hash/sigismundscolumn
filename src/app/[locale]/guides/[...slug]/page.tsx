@@ -6,6 +6,7 @@ import Footer from '@/components/Footer';
 import { guideBySlug, guides } from '@/data/guides';
 import { getGuideTranslation } from '@/data/guideTranslations';
 import { uiT } from '@/data/guideUi';
+import { searchIntentFor } from '@/data/searchIntentGuides';
 import { setRequestLocale } from 'next-intl/server';
 import { routing, type Locale } from '@/i18n/routing';
 
@@ -42,12 +43,13 @@ export async function generateMetadata({params}: Props): Promise<Metadata> {
   if (!article || !(locales as readonly string[]).includes(locale)) return {};
   const tr = getGuideTranslation(locale, article.slug);
   if (!tr) return {};
+  const searchSection = searchIntentFor(article.slug, locale);
   const url = `${root}/${locale}/guides/${article.slug}/`;
   const languages: Record<string,string> = {};
   for (const l of locales) languages[l] = `${root}/${l}/guides/${article.slug}/`;
   languages['x-default'] = `${root}/en/guides/${article.slug}/`;
   return {
-    title: `${tr.title} | Sigismund's Column Warsaw Guide`,
+    title: searchSection ? `${tr.title} | Warsaw Visitor Guide` : `${tr.title} | Sigismund's Column Warsaw Guide`,
     description: tr.intro,
     alternates: { canonical: url, languages },
     openGraph: { title: tr.title, description: tr.intro, url, type: 'article', locale },
@@ -63,6 +65,7 @@ export default async function GuidePage({params}: Props) {
   const tr = getGuideTranslation(locale, article.slug);
   if (!tr) notFound();
   const t = uiT(locale);
+  const searchSection = searchIntentFor(article.slug, locale);
 
   const detail = tr;
   const facts = tr.facts;
@@ -119,6 +122,15 @@ export default async function GuidePage({params}: Props) {
                 <div className="rounded-2xl p-5" style={{background:'var(--bg-secondary)'}}><h3 className="font-semibold mb-2">{t('whyStandsOut')}</h3><ul className="list-disc pl-5">{tr.highlights.map(h=><li key={h}>{h}</li>)}</ul></div>
               </div>
             </section>
+            {searchSection && <section className="rounded-2xl p-6 md:p-8" style={{background:'var(--bg-secondary)',border:'1px solid var(--border-color)'}}>
+              <h2 className="font-display text-3xl font-bold mb-5">{searchSection.heading}</h2>
+              <ol className="list-decimal pl-6 space-y-4">{searchSection.points.map(point=><li key={point}>{point}</li>)}</ol>
+              <div className="grid sm:grid-cols-2 gap-3 mt-6">{searchSection.links.map(target=>{
+                const destination = guideBySlug.get(target);
+                const translated = getGuideTranslation(locale, target);
+                return destination && <Link key={target} href={`/${locale}/guides/${target}/`} className="rounded-xl p-3 font-semibold hover:underline" style={{background:'var(--bg-primary)'}}>{translated?.title ?? destination.title} →</Link>;
+              })}</div>
+            </section>}
             <section className="rounded-2xl p-6 md:p-8" style={{background:'var(--bg-secondary)',border:'1px solid var(--border-color)'}}>
               <p className="text-xs font-bold uppercase tracking-widest mb-3" style={{color:'var(--accent)'}}>{t('aboutHeading')}</p>
               <h2 className="font-display text-3xl font-bold mb-4">{t('aboutTitle', {title: tr.title})}</h2>
