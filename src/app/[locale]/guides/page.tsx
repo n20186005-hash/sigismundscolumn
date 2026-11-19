@@ -14,7 +14,7 @@ const locales = routing.locales as readonly Locale[];
 export async function generateMetadata({params}:{params:Promise<{locale:string}>}):Promise<Metadata> {
   const {locale} = await params;
   if (!(locales as readonly string[]).includes(locale)) return {};
-  const t = await getTranslations({locale, namespace:'guides'});
+  const t = uiT(locale);
   const url = `${root}/${locale}/guides/`;
   const languages: Record<string,string> = {};
   for (const l of locales) languages[l] = `${root}/${l}/guides/`;
