@@ -178,7 +178,7 @@ export default async function GuidePage({params}: Props) {
             <section><h2 className="font-display text-3xl font-bold mb-4">{t('photoViewpoints')}</h2><p>{tr.photo}</p><p className="mt-4">{t('photoViewpointsText')}</p></section>
             {facts && <>
               <section><h2 className="font-display text-3xl font-bold mb-4">{t('whereToStayNearby')}</h2><p>{facts.stay}</p><p className="mt-4">{t('whereToStayText')}</p></section>
-              <section><h2 className="font-display text-3xl font-bold mb-4">{t('visitorImpressions')}</h2><p>{facts.reviews}</p></section>
+              <section><h2 className="font-display text-3xl font-bold mb-4">{t('visitorImpressions')}</h2><p>{facts.reviews}</p><a className="inline-block mt-4 font-semibold underline" href={mapsUrl} target="_blank" rel="noopener noreferrer">{t('googleMapsLocation')} ↗</a></section>
               <section className="rounded-2xl p-6" style={{background:'var(--bg-secondary)'}}><h2 className="font-display text-3xl font-bold mb-4">{t('locationDirections')}</h2><p className="mb-3">{facts.setting}</p><a className="underline font-semibold" href={mapsUrl} target="_blank" rel="noopener noreferrer">{t('exactDestMaps')} ↗</a></section>
             </>}
             {!facts && <section><h2 className="font-display text-3xl font-bold mb-4">{t('whereToStayArea')}</h2><p>{t('whereToStayAreaText')}</p><p className="mt-4"><a className="underline" href={mapsUrl} target="_blank" rel="noopener noreferrer">{t('guideStartMaps')} ↗</a>.</p></section>}
