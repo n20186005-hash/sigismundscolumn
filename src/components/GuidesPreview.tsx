@@ -39,7 +39,7 @@ export default async function GuidesPreview({ locale }: { locale: string }) {
             if (!item) return null;
             const tr = getGuideTranslation(locale, slug);
             return <Link key={slug} href={`/${locale}/guides/${item.slug}/`} className="rounded-xl p-5 hover:shadow-md transition-shadow" style={{ background: 'var(--bg-primary)', border: '1px solid var(--border-color)' }}>
-              <span className="text-xs font-semibold uppercase tracking-wide" style={{ color: 'var(--accent)' }}>{item.category}</span>
+              <span className="text-xs font-semibold uppercase tracking-wide" style={{ color: 'var(--accent)' }}>{t(`cat${item.category.split(' ').join('')}`)}</span>
               <h3 className="font-display text-lg font-semibold mt-2 mb-2" style={{ color: 'var(--text-primary)' }}>{(tr?.title ?? item.title)} →</h3>
               <p className="text-sm leading-relaxed" style={{ color: 'var(--text-secondary)' }}>{tr?.intro ?? item.intro}</p>
             </Link>;

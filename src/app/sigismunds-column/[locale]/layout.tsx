@@ -15,30 +15,24 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const messages = (await import(`@/messages/sigismundscolumn/${locale}.json`)).default;
+  const messages = (await import(`@/messages/${locale}.json`)).default;
   const baseUrl = 'https://sigismundscolumn.info';
 
-  const zhUrl = `${baseUrl}/sigismunds-column/zh`;
-  const enUrl = `${baseUrl}/sigismunds-column/en`;
-  const selfUrl = locale === 'zh' ? zhUrl : enUrl;
+  const selfUrl = `${baseUrl}/sigismunds-column/${locale}`;
 
   return {
     title: messages.meta.title,
     description: messages.meta.description,
     alternates: {
       canonical: selfUrl,
-      languages: {
-        'zh': zhUrl,
-        'en': enUrl,
-        'x-default': zhUrl,
-      },
+      languages: Object.fromEntries([...routing.locales.map(l => [l, `${baseUrl}/sigismunds-column/${l}`]), ['x-default', `${baseUrl}/sigismunds-column/en`]]),
     },
     openGraph: {
       title: messages.meta.title,
       description: messages.meta.description,
       url: selfUrl,
       siteName: "Sigismund's Column Guide",
-      locale: locale === 'zh' ? 'zh_CN' : 'en_US',
+      locale: locale === 'zh' ? 'zh_CN' : locale,
       type: 'website',
     },
   };
@@ -59,11 +53,10 @@ export default async function LocaleLayout({
 
   setRequestLocale(locale);
   
-  // 加载 sigismundscolumn 的消息文件
-  const messages = (await import(`@/messages/sigismundscolumn/${locale}.json`)).default;
+  const messages = (await import(`@/messages/${locale}.json`)).default;
 
   return (
-    <html lang={locale === 'zh' ? 'zh-CN' : 'en'} suppressHydrationWarning>
+    <html lang={locale === 'zh' ? 'zh-CN' : locale} suppressHydrationWarning>
       <head>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXX" crossOrigin="anonymous" />
         <meta name="google-adsense-account" content="ca-pub-XXXXXXXXXX" />

@@ -11,7 +11,7 @@ export default function Header() {
   const locale = useLocale();
   const pathname = usePathname();
   const isHome = pathname === `/${locale}` || pathname === `/${locale}/`;
-  const nearbyLabel = locale === 'zh' ? '周边景点' : locale === 'pl' ? 'Atrakcje w pobliżu' : locale === 'ru' ? 'Достопримечательности поблизости' : locale === 'de' ? 'Sehenswürdigkeiten in der Nähe' : 'Nearby Attractions';
+  const nearbyLabel = t('nearby');
   const [scrolled, setScrolled] = useState(false);
   const solidHeader = scrolled || !isHome;
 

@@ -8,13 +8,15 @@
     "gallery": "Galerie",
     "reviews": "Bewertungen",
     "map": "Karte",
-    "backToHome": "Zurück zur Startseite"
+    "backToHome": "Zurück zur Startseite",
+    "nearby": "Sehenswürdigkeiten in der Nähe"
   },
+  "a11y": {"toggleTheme":"Design wechseln","switchLanguage":"Sprache wechseln","previousPhoto":"Vorheriges Foto","nextPhoto":"Nächstes Foto","closeLightbox":"Bildansicht schließen","toggleSetting":"Einstellung ändern: {label}","photoFallback":"Foto {number}"},
   "hero": {
     "title": "Sigismundssäule",
     "subtitle": "Historisches Denkmal am Schlossplatz in Warschau · Klassisches Säulenmonument des 17. Jahrhunderts",
     "rating": "4.7",
-    "reviewCount": "18,322",
+    "reviewCount": "18,392",
     "hours": "Rund um die Uhr geöffnet",
     "openMaps": "Standort anzeigen"
   },
@@ -250,6 +252,8 @@
     ]
   },
   "cookieSettings": {
+    "statusActive": "Aktiviert",
+    "statusInactive": "Deaktiviert",
     "title": "Cookie-Einstellungen",
     "description": "Verwalten Sie Ihre Cookie-Präferenzen.",
     "essential": {
@@ -261,21 +265,21 @@
       "title": "Analyse-Cookies",
       "description": "Helfen uns zu verstehen, wie Besucher die Website nutzen.",
       "items": [
-        { "name": "Google Analytics", "status": "Aktiv", "description": "..." }
+        { "name": "Google Analytics", "status": "Aktiv", "description": "Hilft nach Zustimmung, die Besuche zu erfassen." }
       ]
     },
     "marketing": {
       "title": "Marketing-Cookies",
       "description": "Werden verwendet, um Besucher über Websites hinweg zu verfolgen.",
       "items": [
-        { "name": "Personalisierte Werbung", "status": "Inaktiv", "description": "..." }
+        { "name": "Personalisierte Werbung", "status": "Inaktiv", "description": "Steuert Einstellungen für personalisierte Werbung." }
       ]
     },
     "save": "Einstellungen speichern",
     "saved": "Einstellungen gespeichert!",
     "preferences": {
       "items": [
-        { "name": "Nutzerpräferenzen", "status": "Aktiv", "description": "..." }
+        { "name": "Nutzerpräferenzen", "status": "Aktiv", "description": "Speichert Ihre ausgewählten Website-Einstellungen." }
       ],
       "title": "Präferenz-Cookies",
       "description": "Beschreibung der Präferenzen"
@@ -330,6 +334,7 @@
     "title": "Häufig gestellte Fragen",
     "subtitle": "Antworten auf die Fragen, die Besucher am häufigsten zur Sigismundssäule stellen.",
     "items": [
+      { "q": "Wann wurde die Sigismundssäule errichtet und was geschah im Zweiten Weltkrieg?", "a": "Die Säule wurde 1644 zu Ehren Sigismunds III. Wasa errichtet. Der ursprüngliche Granitschaft wurde 1887 ersetzt. Während des Warschauer Aufstands 1944 wurde der Schaft zerstört, doch die bronzene Königsstatue blieb erhalten und wurde 1949 auf einem neuen Schaft wiederaufgestellt." },
       { "q": "Ist der Besuch der Sigismundssäule kostenlos?", "a": "Ja. Die Säule ist ein freistehendes Denkmal auf dem Schlossplatz und ganzjährig rund um die Uhr kostenlos zugänglich." },
       { "q": "Wie viel Zeit sollte ich einplanen?", "a": "Planen Sie etwa 20–40 Minuten für die Säule, einen Spaziergang über den Schlossplatz und Fotos ein. Wenn Sie auch das Königsschloss oder die Altstadt besuchen möchten, rechnen Sie mindestens mit einem halben Tag." },
       { "q": "Wann ist die beste Zeit für einen Besuch?", "a": "Bei Sonnenauf- und -untergang ist das Licht am schönsten für Fotos. Sommerabende sind lebendig, wenn Straßenkünstler auftreten, und der frühe Morgen ist ruhig und kaum besucht." },

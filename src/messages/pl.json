@@ -8,13 +8,15 @@
     "gallery": "Galeria",
     "reviews": "Opinie",
     "map": "Mapa",
-    "backToHome": "Wróć na stronę główną"
+    "backToHome": "Wróć na stronę główną",
+    "nearby": "Atrakcje w pobliżu"
   },
+  "a11y": {"toggleTheme":"Zmień motyw","switchLanguage":"Zmień język","previousPhoto":"Poprzednie zdjęcie","nextPhoto":"Następne zdjęcie","closeLightbox":"Zamknij podgląd zdjęcia","toggleSetting":"Zmień ustawienie: {label}","photoFallback":"Zdjęcie {number}"},
   "hero": {
     "title": "Kolumna Zygmunta III Wazy",
     "subtitle": "Plac Zamkowy w Warszawie · Bezpłatnie i całą dobę · Wzniesiona w 1644",
     "rating": "4.7",
-    "reviewCount": "18,322",
+    "reviewCount": "18,392",
     "hours": "Otwarte 24 godziny",
     "openMaps": "Zobacz lokalizację"
   },
@@ -250,6 +252,8 @@
     ]
   },
   "cookieSettings": {
+    "statusActive": "Włączone",
+    "statusInactive": "Wyłączone",
     "title": "Ustawienia plików cookie",
     "description": "Zarządzaj preferencjami plików cookie.",
     "essential": {
@@ -261,21 +265,21 @@
       "title": "Analityczne pliki cookie",
       "description": "Pomagają nam zrozumieć, jak odwiedzający korzystają ze strony.",
       "items": [
-        { "name": "Google Analytics", "status": "Aktywne", "description": "..." }
+        { "name": "Google Analytics", "status": "Aktywne", "description": "Pomaga mierzyć wizyty po wyrażeniu zgody na analitykę." }
       ]
     },
     "marketing": {
       "title": "Marketingowe pliki cookie",
       "description": "Służą do śledzenia odwiedzających między stronami.",
       "items": [
-        { "name": "Spersonalizowane reklamy", "status": "Nieaktywne", "description": "..." }
+        { "name": "Spersonalizowane reklamy", "status": "Nieaktywne", "description": "Kontroluje ustawienia reklam spersonalizowanych." }
       ]
     },
     "save": "Zapisz ustawienia",
     "saved": "Ustawienia zapisane!",
     "preferences": {
       "items": [
-        { "name": "Preferencje użytkownika", "status": "Aktywne", "description": "..." }
+        { "name": "Preferencje użytkownika", "status": "Aktywne", "description": "Zapamiętuje wybrane ustawienia strony." }
       ],
       "title": "Pliki cookie preferencji",
       "description": "Opis preferencji"
@@ -330,6 +334,7 @@
     "title": "Często zadawane pytania",
     "subtitle": "Odpowiedzi na pytania, które odwiedzający najczęściej zadają o Kolumnę Zygmunta.",
     "items": [
+      { "q": "Kiedy wzniesiono Kolumnę Zygmunta i co stało się z nią podczas II wojny światowej?", "a": "Kolumnę odsłonięto w 1644 roku ku czci Zygmunta III Wazy. Pierwotny granitowy trzon wymieniono w 1887 roku. Podczas powstania warszawskiego w 1944 roku trzon zniszczono, ale brązowa figura króla ocalała i w 1949 roku ustawiono ją na nowym trzonie." },
       { "q": "Czy zwiedzanie Kolumny Zygmunta jest bezpłatne?", "a": "Tak. Kolumna jest plenerowym zabytkiem na Placu Zamkowym i jest dostępna bezpłatnie przez całą dobę, przez cały rok." },
       { "q": "Ile czasu powinienem zaplanować na wizytę?", "a": "Zarezerwuj ok. 20–40 minut na obejście kolumny, spacer po Placu Zamkowym i zdjęcia. Jeśli zwiedzisz też Zamek Królewski lub Stare Miasto, zaplanuj co najmniej pół dnia." },
       { "q": "Kiedy jest najlepszy czas na wizytę?", "a": "O wschodzie i zachodzie słońca światło jest najpiękniejsze do fotografii. Letnie wieczory są pełne życia dzięki ulicznym artystom, a wczesny ranek jest spokojny i najmniej zatłoczony." },

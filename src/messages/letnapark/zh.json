@@ -259,6 +259,9 @@
     "openMaps": "在 Google Maps 查看"
   },
   "footer": {
+    "navigation": "站内导航",
+    "legal": "法律信息",
+    "toggleTheme": "切换主题",
     "rights": "© 2026 莱特纳公园独立旅游研究协会 · 保留所有权利。",
     "privacy": "隐私政策",
     "terms": "服务条款",

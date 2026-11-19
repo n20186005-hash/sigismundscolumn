@@ -8,13 +8,15 @@
     "gallery": "Gallery",
     "reviews": "Reviews",
     "map": "Map",
-    "backToHome": "Back to Home"
+    "backToHome": "Back to Home",
+    "nearby": "Nearby Attractions"
   },
+  "a11y": {"toggleTheme":"Toggle theme","switchLanguage":"Switch language","previousPhoto":"Previous photo","nextPhoto":"Next photo","closeLightbox":"Close lightbox","toggleSetting":"Toggle {label}","photoFallback":"Photo {number}"},
   "hero": {
     "title": "Sigismund's Column (Kolumna Zygmunta)",
     "subtitle": "Warsaw's Castle Square · Free & open 24 hours · Erected 1644",
     "rating": "4.7",
-    "reviewCount": "18,322",
+    "reviewCount": "18,392",
     "hours": "Open 24 Hours",
     "openMaps": "View Location"
   },
@@ -345,6 +347,8 @@
     ]
   },
   "cookieSettings": {
+    "statusActive": "Enabled",
+    "statusInactive": "Disabled",
     "title": "Cookie Settings",
     "description": "Manage your cookie preferences.",
     "essential": {
@@ -359,7 +363,7 @@
         {
           "name": "Google Analytics",
           "status": "Active",
-          "description": "..."
+          "description": "Helps measure visits when analytics consent is enabled."
         }
       ]
     },
@@ -370,7 +374,7 @@
         {
           "name": "Personalized Ads",
           "status": "Inactive",
-          "description": "..."
+          "description": "Controls personalised advertising preferences."
         }
       ]
     },
@@ -381,13 +385,13 @@
         {
           "name": "User Preferences",
           "status": "Active",
-          "description": "..."
+          "description": "Remembers your selected site preferences."
         }
       ],
       "title": "Preferences Cookies",
-      "description": "Preferences Description"
+      "description": "Remembers the display and usage settings you choose on this site."
     },
-    "consentManagement": "Consent management...",
+    "consentManagement": "You can update your cookie consent choices here at any time.",
     "rejectAll": "Reject All"
   },
   "facilities": {

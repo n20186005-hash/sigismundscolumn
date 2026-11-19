@@ -259,6 +259,9 @@
     "openMaps": "View on Google Maps"
   },
   "footer": {
+    "navigation": "Navigation",
+    "legal": "Legal",
+    "toggleTheme": "Toggle theme",
     "rights": "© 2026 Letna Park Independent Travel Research Association · All rights reserved.",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",

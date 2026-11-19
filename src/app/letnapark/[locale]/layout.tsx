@@ -1,12 +1,12 @@
 import { NextIntlClientProvider } from 'next-intl';
 import { setRequestLocale } from 'next-intl/server';
-import { notFound } from 'next/navigation';
+import { redirect } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import type { Metadata } from 'next';
 import '@/app/globals.css';
 
 export function generateStaticParams() {
-  return routing.locales.map((locale) => ({ locale }));
+  return ['zh', 'en'].map((locale) => ({ locale }));
 }
 
 export async function generateMetadata({
@@ -15,6 +15,7 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
+  if (locale !== 'zh' && locale !== 'en') return {title: 'Letna Park', robots: {index: false}};
   const messages = (await import(`@/messages/letnapark/${locale}.json`)).default;
   const baseUrl = 'https://letnapark.info';
 
@@ -53,9 +54,7 @@ export default async function LocaleLayout({
 }) {
   const { locale } = await params;
 
-  if (!routing.locales.includes(locale as any)) {
-    notFound();
-  }
+  if (locale !== 'zh' && locale !== 'en') redirect('/letnapark/en');
 
   setRequestLocale(locale);
   

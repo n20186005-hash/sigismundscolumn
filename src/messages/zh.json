@@ -8,13 +8,15 @@
     "gallery": "图库",
     "reviews": "评价",
     "map": "地图",
-    "backToHome": "返回首页"
+    "backToHome": "返回首页",
+    "nearby": "周边景点"
   },
+  "a11y": {"toggleTheme":"切换主题","switchLanguage":"切换语言","previousPhoto":"上一张照片","nextPhoto":"下一张照片","closeLightbox":"关闭图片预览","toggleSetting":"切换设置：{label}","photoFallback":"照片 {number}"},
   "hero": {
     "title": "西吉斯蒙德圆柱",
     "subtitle": "华沙城堡广场核心古迹 · 17世纪古典纪念丰碑",
     "rating": "4.7",
-    "reviewCount": "18,322",
+    "reviewCount": "18,392",
     "hours": "全天开放",
     "openMaps": "查看位置"
   },
@@ -345,6 +347,8 @@
     ]
   },
   "cookieSettings": {
+    "statusActive": "已启用",
+    "statusInactive": "未启用",
     "title": "Cookie 设置",
     "description": "管理您的 Cookie 偏好设置。",
     "essential": {
@@ -358,8 +362,8 @@
       "items": [
         {
           "name": "Google Analytics",
-          "status": "Active",
-          "description": "..."
+          "status": "已启用",
+          "description": "仅在您同意后用于统计网站访问情况。"
         }
       ]
     },
@@ -368,9 +372,9 @@
       "description": "用于跨网站追踪访客。",
       "items": [
         {
-          "name": "Personalized Ads",
-          "status": "Inactive",
-          "description": "..."
+          "name": "个性化广告",
+          "status": "未启用",
+          "description": "用于控制个性化广告相关偏好。"
         }
       ]
     },
@@ -379,16 +383,16 @@
     "preferences": {
       "items": [
         {
-          "name": "User Preferences",
-          "status": "Active",
-          "description": "..."
+          "name": "用户偏好设置",
+          "status": "已启用",
+          "description": "用于记住您选择的网站偏好。"
         }
       ],
-      "title": "Preferences Cookies",
-      "description": "Preferences Description"
+      "title": "偏好 Cookie",
+      "description": "用于记住您在本站选择的显示与使用偏好。"
     },
-    "consentManagement": "Consent management...",
-    "rejectAll": "Reject All"
+    "consentManagement": "您可以随时在此调整 Cookie 同意设置。",
+    "rejectAll": "全部拒绝"
   },
   "facilities": {
     "title": "周边游客设施",
@@ -437,6 +441,7 @@
     "title": "常见问题",
     "subtitle": "针对齐格蒙特柱（Sigismund's Column），回答游客最常提出的问题。",
     "items": [
+      { "q": "齐格蒙特圆柱建于何时？二战期间发生过什么？", "a": "圆柱于1644年建成，以纪念齐格蒙特三世。原花岗岩柱身在1887年更换；1944年华沙起义期间柱身遭到毁坏，但原有青铜国王雕像得以保存，并于1949年安装在新柱身上。" },
       { "q": "参观齐格蒙特柱需要买票吗？", "a": "不需要。石柱是城堡广场上的露天地标，全年每天 24 小时免费向公众开放。" },
       { "q": "建议在这里停留多长时间？", "a": "绕柱参观、欣赏广场并拍照约需 20–40 分钟；若同时游览皇家城堡或老城，建议安排至少半天。" },
       { "q": "什么时间游览最佳？", "a": "日出与日落时段光线最美，最适合拍照；夏季傍晚气氛热闹，清晨则安静、游客较少。" },

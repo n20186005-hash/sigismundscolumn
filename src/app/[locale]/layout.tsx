@@ -141,7 +141,7 @@ export default async function LocaleLayout({
       '@type': 'AggregateRating',
       ratingValue: '4.7',
       bestRating: '5',
-      reviewCount: '18322',
+      reviewCount: '18392',
     },
     sameAs: [
       mapsUrl,

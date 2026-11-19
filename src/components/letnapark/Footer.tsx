@@ -1,7 +1,10 @@
+'use client';
+
 import { useTranslations } from 'next-intl';
 
 export default function Footer() {
   const t = useTranslations('footer');
+  const header = useTranslations('header');
 
   return (
     <footer className="py-12 px-4" style={{ background: 'var(--bg-secondary)', borderTop: '1px solid var(--border-color)' }}>
@@ -36,16 +39,16 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="font-medium text-sm mb-3" style={{ color: 'var(--text-primary)' }}>Navigation</h4>
+            <h4 className="font-medium text-sm mb-3" style={{ color: 'var(--text-primary)' }}>{t('navigation')}</h4>
             <div className="space-y-2">
-              <a href="#gallery-section" className="block text-sm" style={{ color: 'var(--text-secondary)' }}>Gallery</a>
-              <a href="#reviews" className="block text-sm" style={{ color: 'var(--text-secondary)' }}>Reviews</a>
-              <a href="#map" className="block text-sm" style={{ color: 'var(--text-secondary)' }}>Map</a>
+              <a href="#gallery-section" className="block text-sm" style={{ color: 'var(--text-secondary)' }}>{header('gallery')}</a>
+              <a href="#reviews" className="block text-sm" style={{ color: 'var(--text-secondary)' }}>{header('reviews')}</a>
+              <a href="#map" className="block text-sm" style={{ color: 'var(--text-secondary)' }}>{header('map')}</a>
             </div>
           </div>
 
           <div>
-            <h4 className="font-medium text-sm mb-3" style={{ color: 'var(--text-primary)' }}>Legal</h4>
+            <h4 className="font-medium text-sm mb-3" style={{ color: 'var(--text-primary)' }}>{t('legal')}</h4>
             <div className="space-y-2">
               <a href="#" className="block text-sm" style={{ color: 'var(--text-secondary)' }}>{t('privacy')}</a>
               <a href="#" className="block text-sm" style={{ color: 'var(--text-secondary)' }}>{t('terms')}</a>

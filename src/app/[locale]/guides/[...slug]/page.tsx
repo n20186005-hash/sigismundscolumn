@@ -97,7 +97,7 @@ export default async function GuidePage({params}: Props) {
     <Header />
     <main className="min-h-screen" style={{background:'var(--bg-primary)',color:'var(--text-primary)'}}>
       <div className="max-w-5xl mx-auto px-5 pt-28 pb-12 md:pt-32 md:pb-20">
-        <nav className="text-sm mb-6" aria-label="Breadcrumb" style={{color:'var(--text-muted)'}}>
+        <nav className="text-sm mb-6" aria-label={t('breadcrumbGuides')} style={{color:'var(--text-muted)'}}>
           <Link href={`/${locale}`} className="hover:underline">{t('breadcrumbHome')}</Link> / <Link href={`/${locale}/guides`} className="hover:underline">{t('breadcrumbGuides')}</Link> / {tr.title}
         </nav>
         <p className="uppercase tracking-widest text-xs font-semibold mb-4" style={{color:'var(--accent)'}}>{categoryLabel}</p>
@@ -111,7 +111,7 @@ export default async function GuidePage({params}: Props) {
         </div>}
         <a href={mapsUrl} target="_blank" rel="noopener noreferrer" className="inline-block rounded-full px-6 py-3 font-semibold mb-14" style={{background:'var(--accent)',color:'white'}}>{t('mapsButton')} ↗</a>
         {imageUrl && <figure className="mb-14">
-          <img src={imageUrl} alt={placeSlug ? `${tr.title}, Warsaw, Poland` : 'Sigismund’s Column and Castle Square in Warsaw'} className="w-full max-h-[540px] rounded-2xl object-cover" loading="eager" width="960" height="720"/>
+          <img src={imageUrl} alt={tr.title} className="w-full max-h-[540px] rounded-2xl object-cover" loading="eager" width="960" height="720"/>
           <figcaption className="text-xs mt-2" style={{color:'var(--text-muted)'}}>
             {placeSlug ? t('figcaptionNearby') : article.category === 'Monument history' ? t('figcaptionMonument') : t('figcaptionCastle')}
           </figcaption>

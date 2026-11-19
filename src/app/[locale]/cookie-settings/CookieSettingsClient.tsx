@@ -18,6 +18,7 @@ function CookieToggle({
   locked?: boolean;
   badge?: string;
 }) {
+  const a11y = useTranslations('a11y');
   return (
     <div
       className="flex items-start justify-between gap-4 p-5 sm:p-6 rounded-xl"
@@ -42,7 +43,7 @@ function CookieToggle({
       <button
         onClick={locked ? undefined : onToggle}
         className={`cookie-toggle flex-shrink-0 ${enabled ? 'active' : ''} ${locked ? 'opacity-60 cursor-not-allowed' : ''}`}
-        aria-label={`Toggle ${label}`}
+        aria-label={a11y('toggleSetting', {label})}
         disabled={locked}
       />
     </div>
@@ -125,7 +126,7 @@ export default function CookieSettingsClient() {
                 description={t('analytics.description')}
                 enabled={analytics}
                 onToggle={() => setAnalytics(!analytics)}
-                badge={item.status}
+                badge={analytics ? t('statusActive') : t('statusInactive')}
               />
             ))
           }
@@ -138,7 +139,7 @@ export default function CookieSettingsClient() {
                 description={t('preferences.description')}
                 enabled={preferences}
                 onToggle={() => setPreferences(!preferences)}
-                badge={item.status}
+                badge={preferences ? t('statusActive') : t('statusInactive')}
               />
             ))
           }
@@ -151,7 +152,7 @@ export default function CookieSettingsClient() {
                 description={t('marketing.description')}
                 enabled={marketing}
                 onToggle={() => setMarketing(!marketing)}
-                badge={item.status}
+                badge={marketing ? t('statusActive') : t('statusInactive')}
               />
             ))
           }
