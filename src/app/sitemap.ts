@@ -1,5 +1,6 @@
 import type { MetadataRoute } from 'next';
 import {guides} from '@/data/guides';
+import {newWarsawBySlug} from '@/data/guideTranslations/warsawNearby';
 
 const baseUrl = 'https://sigismundscolumn.com';
 const locales = ['pl', 'en', 'zh', 'ru', 'de'] as const;
@@ -39,11 +40,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Each guide detail page per locale
   for (const g of guides) {
-    const path = `/guides/${g.slug}/`;
+    const path = `/guides/${g.slug}`;
     for (const locale of locales) {
       entries.push({
         url: `${baseUrl}/${locale}${path}`,
-        lastModified: new Date('2026-11-11'),
+        lastModified: new Date(newWarsawBySlug.has(g.slug) ? '2026-11-24' : '2026-11-11'),
         changeFrequency: 'monthly',
         priority: 0.7,
         alternates: { languages: langAlternates(path) },

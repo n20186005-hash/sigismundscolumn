@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { guides } from '@/data/guides';
+import { newWarsawGuides } from '@/data/guideTranslations/warsawNearby';
 import { getGuideTranslation } from '@/data/guideTranslations';
 import { uiT } from '@/data/guideUi';
 
@@ -17,6 +18,7 @@ const featured = [
   'nearby/st-annes-viewing-terrace',
   'nearby/magdalena-abakanowicz-footbridge',
   'nearby/multimedia-fountain-vistula-boulevards',
+  ...newWarsawGuides.map(guide => guide.slug),
   'routes/old-town-walking-tour',
 ];
 

@@ -1,0 +1,915 @@
+[
+  {
+    "slug": "tin-roofed-palace",
+    "name": "Pałac pod Blachą",
+    "address": "plac Zamkowy 4",
+    "kind": "museum",
+    "manager": "Zamek Królewski w Warszawie",
+    "source": "https://www.zamek-krolewski.pl/en/strona/visit/1217-tin-roofed-palace",
+    "visitorSource": "https://www.zamek-krolewski.pl/en/godziny-otwarcia-i-ceny-biletow",
+    "photoSource": "https://commons.wikimedia.org/wiki/File:Poland-01094_-_Copper-Roof_Palace_%2831183288606%29.jpg",
+    "duration": "40–60",
+    "copy": {
+      "en": {
+        "title": "Tin-Roofed Palace",
+        "intro": "See Prince Józef Poniatowski’s former rooms below the Royal Castle and compare the scale of two royal residences.",
+        "history": "The low palace below Castle Square tells the story of the royal court at a domestic scale. King Stanisław August acquired it in 1777; his nephew Józef Poniatowski lived here before becoming a marshal.",
+        "route": "From Castle Square look down toward the palace, then approach the courtyard. Look back at the much taller castle to see how two residences could share a precinct yet occupy different levels.",
+        "observation": "Inside, look for the change from rooms for receiving guests to the prince’s private apartment. Check the castle’s separate admission arrangements for the palace before buying a ticket.",
+        "photo": "Frame the low roof against the castle wall from above.",
+        "faq": [
+          "What gave the palace its name?",
+          "Its sheet-metal roof. Look down from the edge of Castle Square to see its long profile below the castle."
+        ],
+        "hours": "Check the castle’s Palace Route and last admission before walking down from the square.",
+        "access": "Entry to the interiors uses the Palace Route ticket. Ask about step-free access to the lower courtyard before setting out."
+      },
+      "pl": {
+        "title": "Pałac pod Blachą",
+        "intro": "Zobacz dawne apartamenty księcia Józefa Poniatowskiego i porównaj dwie rezydencje pod tym samym zamkiem.",
+        "history": "Niski pałac poniżej placu Zamkowego pokazuje bardziej domowy wymiar życia dworu. W 1777 roku kupił go Stanisław August. Mieszkał tu jego bratanek Józef Poniatowski, późniejszy marszałek.",
+        "route": "Z placu spójrz w dół na pałac, a potem podejdź na dziedziniec. Obejrzyj się w stronę wysokiej bryły zamku, aby dostrzec, na jak różnych poziomach stoją obie rezydencje.",
+        "observation": "W środku zwróć uwagę na przejście od pomieszczeń reprezentacyjnych do prywatnego apartamentu księcia. Przed zakupem biletu sprawdź zasady zwiedzania samego pałacu.",
+        "photo": "Z góry ujmij niski dach na tle ściany zamku.",
+        "faq": [
+          "Skąd wzięła się nazwa pałacu?",
+          "Od dachu krytego blachą. Jego długi profil najlepiej widać z krawędzi placu Zamkowego."
+        ],
+        "hours": "Przed zejściem z placu sprawdź godziny Trasy Pałacowej i ostatnie wejście.",
+        "access": "Do wnętrz obowiązuje bilet na Trasę Pałacową. Przed wizytą zapytaj o dojście bez schodów na dolny dziedziniec."
+      },
+      "zh": {
+        "title": "铜顶宫",
+        "intro": "在王宫下方探访约瑟夫·波尼亚托夫斯基王子的旧居，比较两处王室建筑的尺度。",
+        "history": "城堡广场下方这座低矮宅邸保留着王室生活中较私密的一面。斯坦尼斯瓦夫·奥古斯特国王于1777年购入此地，后来成为元帅的侄子约瑟夫·波尼亚托夫斯基曾住在这里。",
+        "route": "先从广场上方俯看宫殿，再走近庭院，回头对照背后高耸的王宫。两栋建筑虽属同一建筑群，入口标高和体量却大不相同。",
+        "observation": "参观室内时，留意会客空间到王子私人套房的过渡。购票前核对铜顶宫当天开放的展室和票种。",
+        "photo": "从高处将低屋顶与王宫的高墙收入同一画面。",
+        "faq": [
+          "铜顶宫的名字从何而来？",
+          "得名于金属屋顶。从城堡广场边缘俯看，可辨出王宫下方低矮而狭长的屋脊。"
+        ],
+        "hours": "从广场下来前，查王宫公布的铜顶宫路线及末次入场时间。",
+        "access": "参观室内请购买铜顶宫路线的门票。如需无台阶路线，先向王宫询问如何下到庭院。"
+      },
+      "ru": {
+        "title": "Дворец под бляхой",
+        "intro": "Посмотрите бывшие покои князя Юзефа Понятовского и сравните масштабы двух резиденций у замка.",
+        "history": "Небольшая резиденция ниже Замковой площади показывает частную сторону придворной жизни. В 1777 году дворец купил Станислав Август. Здесь жил его племянник Юзеф Понятовский, будущий маршал.",
+        "route": "С площади посмотрите вниз на дворец, затем подойдите к его двору. Обернитесь к высокой стене замка: две резиденции одного ансамбля стоят на разных уровнях.",
+        "observation": "Внутри проследите переход от приёмных комнат к личным покоям князя. До покупки билета уточните в кассе замка, какие помещения дворца открыты.",
+        "photo": "Снимите низкую крышу на фоне замковой стены сверху.",
+        "faq": [
+          "Откуда взялось название дворца?",
+          "От крыши, покрытой листовым металлом. Её длинный контур виден с края Замковой площади."
+        ],
+        "hours": "Перед спуском с площади проверьте часы дворцового маршрута и время последнего входа.",
+        "access": "Для осмотра интерьеров нужен билет на дворцовый маршрут. Уточните, как попасть в нижний двор без ступеней."
+      },
+      "de": {
+        "title": "Palast unter dem Blechdach",
+        "intro": "Besuchen Sie die früheren Räume des Fürsten Józef Poniatowski und vergleichen Sie zwei Residenzen am Königsschloss.",
+        "history": "Die niedrige Residenz unterhalb des Schlossplatzes zeigt die private Seite des Hoflebens. König Stanisław August erwarb sie 1777. Sein Neffe Józef Poniatowski, der spätere Marschall, wohnte hier.",
+        "route": "Blicken Sie vom Schlossplatz hinab und gehen Sie anschließend zum Hof. Beim Blick zurück zum hohen Schloss fallen die unterschiedlichen Ebenen der beiden Residenzen auf.",
+        "observation": "Achten Sie im Inneren auf den Übergang von den Empfangsräumen zu den Privatgemächern. Prüfen Sie vor dem Ticketkauf, welche Räume im Palast geöffnet sind.",
+        "photo": "Nehmen Sie das niedrige Dach von oben vor der Schlossmauer auf.",
+        "faq": [
+          "Woher stammt der Name des Palasts?",
+          "Vom Dach aus Blech. Vom Rand des Schlossplatzes ist sein langes Profil unterhalb des Schlosses zu sehen."
+        ],
+        "hours": "Prüfen Sie vor dem Abstieg vom Platz die Öffnungszeiten und den letzten Einlass der Palastroute.",
+        "access": "Für die Innenräume gilt die Eintrittskarte der Palastroute. Fragen Sie nach einem stufenlosen Weg zum unteren Hof."
+      }
+    }
+  },
+  {
+    "slug": "holy-cross-church",
+    "name": "Bazylika Świętego Krzyża",
+    "address": "Krakowskie Przedmieście 3",
+    "kind": "church",
+    "manager": "Parafia Świętego Krzyża",
+    "source": "https://go2warsaw.pl/en/basilica-of-the-holy-cross/",
+    "visitorSource": "https://go2warsaw.pl/en/basilica-of-the-holy-cross/",
+    "photoSource": "https://commons.wikimedia.org/wiki/File:Bazylika_%C5%9Awi%C4%99tego_Krzy%C5%BCa_w_Warszawie_2021.jpg",
+    "duration": "15–25",
+    "copy": {
+      "en": {
+        "title": "Holy Cross Basilica",
+        "intro": "Follow the steps beneath the cross-bearing Christ to the church where Chopin’s heart is kept.",
+        "history": "The twin towers frame the entrance, but the sculpture on the steps sets the tone. Beneath Christ carrying the cross, the words “Sursum corda” invite those climbing the steps to lift up their hearts.",
+        "route": "Walk south along Krakowskie Przedmieście. Look back from the pavement before entering; the raised hand of the figure reads more clearly against the façade than from immediately below.",
+        "observation": "Chopin’s heart rests in a pillar of the nave. Leave time to find the memorial inscription and distinguish this place from his grave in Paris. During services, keep the central aisle clear.",
+        "photo": "Use the opposite pavement to frame the statue and both towers without standing on the stairs.",
+        "faq": [
+          "Is Chopin buried here?",
+          "His heart rests in a pillar in the nave. His grave is at Père-Lachaise cemetery in Paris."
+        ],
+        "hours": "Check the parish schedule and visit outside services.",
+        "access": "The steps lead to the main entrance. Ask the parish about an alternative entrance if needed."
+      },
+      "pl": {
+        "title": "Bazylika Świętego Krzyża",
+        "intro": "Podejdź do wejścia pod figurą Chrystusa z krzyżem i odszukaj w kościele miejsce spoczynku serca Chopina.",
+        "history": "Dwie wieże ujmują wejście, ale wzrok przyciąga figura Chrystusa niosącego krzyż na schodach. Pod nią widnieją słowa „Sursum corda”, czyli „W górę serca”.",
+        "route": "Idź Krakowskim Przedmieściem na południe. Przed wejściem popatrz z chodnika: uniesioną dłoń figury lepiej widać na tle fasady niż tuż spod schodów.",
+        "observation": "Serce Chopina spoczywa w filarze nawy. Odszukaj napis pamiątkowy; grób kompozytora znajduje się w Paryżu. Podczas nabożeństw pozostaw główne przejście wolne.",
+        "photo": "Z przeciwległego chodnika obejmij kadrem figurę i obie wieże, pozostawiając schody wolne.",
+        "faq": [
+          "Czy Chopin jest tutaj pochowany?",
+          "W filarze nawy spoczywa jego serce. Grób kompozytora znajduje się na cmentarzu Père-Lachaise w Paryżu."
+        ],
+        "hours": "Sprawdź ogłoszenia parafii i wybierz porę poza nabożeństwami.",
+        "access": "Do wejścia głównego prowadzą schody. W razie potrzeby zapytaj parafię o inne wejście."
+      },
+      "zh": {
+        "title": "圣十字圣殿",
+        "intro": "沿着背负十字架的基督像下方的台阶，探访保存肖邦心脏的教堂。",
+        "history": "双塔之间是教堂入口，台阶上的负十字架基督像更值得先停步观看。雕像下的拉丁文“Sursum corda”意为“举心向上”，与人物抬起的手遥相呼应。",
+        "route": "从城堡广场沿王家大道向南走，进门前先在人行道退后几步。以立面作背景时，雕像的手势比仰站在台阶下更清楚。",
+        "observation": "肖邦的心脏安放在中殿的一根柱内，可寻找纪念铭文；他的墓地在巴黎。遇礼拜时避开中间通道。",
+        "photo": "从对侧人行道拍基督像和双塔，把台阶留给进出教堂的人。",
+        "faq": [
+          "肖邦葬在这里吗？",
+          "教堂中殿的柱内保存的是他的心脏。肖邦的墓在巴黎拉雪兹神父公墓。"
+        ],
+        "hours": "先看堂区公告，选择礼拜以外的时间。",
+        "access": "正门有台阶。有无障碍需求时，可先向堂区询问其他入口。"
+      },
+      "ru": {
+        "title": "Базилика Святого Креста",
+        "intro": "Поднимитесь под фигурой Христа с крестом в храм, где хранится сердце Шопена.",
+        "history": "Вход обрамляют две башни, но сначала взгляните на Христа с крестом на ступенях. Слова «Sursum corda» под фигурой означают «Горе имеим сердца» и перекликаются с жестом поднятой руки.",
+        "route": "Пройдите на юг по Краковскому предместью. Перед входом отойдите на тротуар: отсюда рука скульптуры лучше видна на фоне фасада, чем прямо у лестницы.",
+        "observation": "В одной из опор нефа покоится сердце Шопена. Найдите памятную надпись; могила композитора находится в Париже. Во время службы оставляйте центральный проход свободным.",
+        "photo": "Снимите статую и обе башни с противоположного тротуара, оставив ступени свободными.",
+        "faq": [
+          "Шопен похоронен здесь?",
+          "В столпе нефа хранится его сердце. Могила композитора находится на парижском кладбище Пер-Лашез."
+        ],
+        "hours": "Проверьте расписание прихода и выберите время между службами.",
+        "access": "К главному входу ведут ступени. При необходимости узнайте в приходе о другом входе."
+      },
+      "de": {
+        "title": "Heiligkreuzbasilika",
+        "intro": "Gehen Sie unter der Christusfigur mit dem Kreuz zu der Kirche, in der Chopins Herz aufbewahrt wird.",
+        "history": "Zwei Türme rahmen den Eingang. Auf der Treppe trägt eine Christusfigur das Kreuz; die Inschrift „Sursum corda“ fordert dazu auf, die Herzen zu erheben, und nimmt die Geste ihrer Hand auf.",
+        "route": "Folgen Sie der Krakowskie Przedmieście nach Süden. Bleiben Sie vor dem Betreten auf dem Gehweg stehen: Vor der Fassade ist die erhobene Hand deutlicher zu erkennen als direkt unter der Treppe.",
+        "observation": "Chopins Herz ruht in einem Pfeiler des Kirchenschiffs. Suchen Sie die Gedenkinschrift; sein Grab liegt in Paris. Halten Sie bei Gottesdiensten den Mittelgang frei.",
+        "photo": "Fotografieren Sie die Figur mit beiden Türmen vom gegenüberliegenden Bürgersteig.",
+        "faq": [
+          "Ist Chopin hier begraben?",
+          "Sein Herz ruht in einem Pfeiler des Kirchenschiffs. Sein Grab liegt auf dem Pariser Friedhof Père-Lachaise."
+        ],
+        "hours": "Prüfen Sie die Pfarrhinweise und kommen Sie außerhalb der Gottesdienste.",
+        "access": "Zum Haupteingang führen Stufen. Fragen Sie bei Bedarf in der Pfarrei nach einem anderen Eingang."
+      }
+    }
+  },
+  {
+    "slug": "copernicus-monument",
+    "name": "Pomnik Mikołaja Kopernika",
+    "address": "Krakowskie Przedmieście, Pałac Staszica",
+    "kind": "outdoor",
+    "manager": null,
+    "source": "https://polsca.pan.pl/exhibition/kopernik/17.pdf",
+    "visitorSource": "https://polsca.pan.pl/exhibition/kopernik/17.pdf",
+    "photoSource": "https://commons.wikimedia.org/wiki/File:Warszawa%2C_ul._Nowy_%C5%9Awiat_72-74_20170517_004.jpg",
+    "duration": "10–15",
+    "copy": {
+      "en": {
+        "title": "Copernicus Monument",
+        "intro": "Read the astronomer’s instruments in bronze outside Staszic Palace.",
+        "history": "Bertel Thorvaldsen’s seated astronomer was unveiled in 1830 before the Staszic Palace. Its sponsor Stanisław Staszic died before the unveiling; the palace behind the bronze still gives the monument a scholarly setting.",
+        "route": "Follow the Royal Route south past Holy Cross Basilica to the end of Krakowskie Przedmieście. Start opposite the statue to see the seated silhouette against the palace, then approach the base on foot.",
+        "observation": "Look at the two hands separately: the armillary sphere models the heavens, while the compasses suggest measurement. Try a side view to separate the delicate rings from the folds of the cloak.",
+        "photo": "Include the palace entrance behind the seated figure.",
+        "faq": [
+          "What is the ringed object in Copernicus’s hand?",
+          "It is an armillary sphere, used to represent the structure of the heavens. Look from the side so its rings separate from the cloak."
+        ],
+        "hours": "The outdoor monument can be viewed from the pavement during daylight without a ticket.",
+        "access": "Stay on the public paving to see the statue. Access to Staszic Palace follows its own arrangements."
+      },
+      "pl": {
+        "title": "Pomnik Mikołaja Kopernika",
+        "intro": "Przyjrzyj się przyrządom odlanym z brązu przed Pałacem Staszica.",
+        "history": "Siedzącego astronoma dłuta Bertela Thorvaldsena odsłonięto przed Pałacem Staszica w 1830 roku. Fundator Stanisław Staszic nie dożył uroczystości. Gmach za pomnikiem przypomina o naukowym charakterze tego miejsca.",
+        "route": "Idź Traktem Królewskim na południe, mijając bazylikę Świętego Krzyża. Najpierw obejrzyj sylwetkę na tle pałacu z przeciwnej strony, potem podejdź do cokołu.",
+        "observation": "Przyjrzyj się obu dłoniom: sfera armilarna pokazuje układ nieba, cyrkiel służy do pomiarów. Z boku pierścienie instrumentu lepiej odcinają się od fałd płaszcza.",
+        "photo": "Ustaw wejście do pałacu w tle siedzącej postaci.",
+        "faq": [
+          "Czym jest przedmiot z pierścieniami w ręce Kopernika?",
+          "To sfera armilarna, model układu nieba. Z boku lepiej widać pierścienie na tle fałd płaszcza."
+        ],
+        "hours": "Pomnik można oglądać za dnia z chodnika bez biletu.",
+        "access": "Pozostań w przestrzeni publicznej. Pałac Staszica ma własne zasady wstępu."
+      },
+      "zh": {
+        "title": "哥白尼纪念碑",
+        "intro": "在斯塔希茨宫前停下，辨认哥白尼手中铸成青铜的天文仪器。",
+        "history": "托瓦尔森塑造的坐姿天文学家于1830年在斯塔希茨宫前揭幕。资助者斯塔希茨未能亲见典礼；背后的学术建筑延续了纪念碑与科学研究的联系。",
+        "route": "沿王家大道往南，经圣十字圣殿抵达克拉科夫郊区街尽头。先隔街看人物与宫殿的比例，再经人行横道靠近基座。",
+        "observation": "分别观察双手中的器具：浑天仪用环圈表现天球，圆规则与测量有关。从侧面看，仪器的环线不会与长袍的褶皱重叠。",
+        "photo": "让宫殿入口成为坐像的背景。",
+        "faq": [
+          "哥白尼手中带圆环的物件是什么？",
+          "是用来表示天体结构的浑仪。站到侧面，更容易将圆环和衣褶分开看。"
+        ],
+        "hours": "白天可从公共人行道免费观看纪念碑。",
+        "access": "请留在公共铺地。斯塔希茨宫有独立的开放安排。"
+      },
+      "ru": {
+        "title": "Памятник Копернику",
+        "intro": "Рассмотрите бронзовые инструменты астронома перед дворцом Сташица.",
+        "history": "Фигуру астронома работы Бертеля Торвальдсена открыли перед дворцом Сташица в 1830 году. Станислав Сташиц, пожертвовавший средства на памятник, не дожил до открытия.",
+        "route": "Идите по Королевскому тракту на юг мимо базилики Святого Креста. Сначала рассмотрите силуэт учёного на фоне дворца с противоположной стороны, затем подойдите к постаменту по переходу.",
+        "observation": "Изучите предметы в обеих руках: армиллярная сфера моделирует небосвод, а циркуль служит для измерений. Сбоку тонкие кольца чётче выделяются на фоне складок плаща.",
+        "photo": "Включите дворцовый вход в кадр за сидящей фигурой.",
+        "faq": [
+          "Что за предмет с кольцами в руке Коперника?",
+          "Это армиллярная сфера, модель небесной структуры. Сбоку кольца легче различить на фоне складок плаща."
+        ],
+        "hours": "Днём памятник можно осмотреть с тротуара бесплатно.",
+        "access": "Оставайтесь на общедоступной площадке. Доступ во дворец Сташица регулируется отдельно."
+      },
+      "de": {
+        "title": "Kopernikusdenkmal",
+        "intro": "Entdecken Sie die astronomischen Instrumente aus Bronze vor dem Staszic-Palast.",
+        "history": "Bertel Thorvaldsens sitzender Astronom wurde 1830 vor dem Staszic-Palais enthüllt. Der Stifter Stanisław Staszic erlebte die Einweihung nicht mehr. Das Palais dahinter verweist auf die wissenschaftliche Tradition des Ortes.",
+        "route": "Gehen Sie auf dem Königsweg an der Heiligkreuzbasilika vorbei nach Süden. Betrachten Sie die Figur zuerst von gegenüber vor der Palastfassade und gehen Sie dann über den Übergang zum Sockel.",
+        "observation": "Sehen Sie sich die Instrumente in beiden Händen an: Die Armillarsphäre stellt den Himmel dar, der Zirkel dient zum Messen. Seitlich heben sich die feinen Ringe besser vom gefalteten Mantel ab.",
+        "photo": "Nehmen Sie den Palasteingang hinter der sitzenden Figur ins Bild.",
+        "faq": [
+          "Was ist das Gebilde aus Ringen in Kopernikus’ Hand?",
+          "Eine Armillarsphäre, die den Aufbau des Himmels darstellt. Seitlich heben sich die Ringe besser vom Mantel ab."
+        ],
+        "hours": "Das Denkmal ist tagsüber vom Bürgersteig aus frei zu sehen.",
+        "access": "Bleiben Sie auf der öffentlichen Fläche. Für den Staszic-Palast gelten eigene Zugangsregeln."
+      }
+    }
+  },
+  {
+    "slug": "saxon-garden",
+    "name": "Ogród Saski",
+    "address": "Ogród Saski, plac Piłsudskiego",
+    "kind": "park",
+    "manager": "Zarząd Zieleni m.st. Warszawy",
+    "source": "https://go2warsaw.pl/en/warsaw-is-awash-with-greenery/",
+    "visitorSource": "https://go2warsaw.pl/en/warsaw-is-awash-with-greenery/",
+    "photoSource": "https://commons.wikimedia.org/wiki/File:Warszawa-Ogr%C3%B3d_Saski_fontanna.jpg",
+    "duration": "25–45",
+    "copy": {
+      "en": {
+        "title": "Saxon Garden",
+        "intro": "Follow the royal garden’s straight axis to the fountain and find a quieter path back.",
+        "history": "The garden opened to the public in 1727, when Warsaw’s Saxon rulers were shaping a vast palace-and-garden axis. The palace no longer closes the avenue as it once did; the straight path preserves the old line of sight.",
+        "route": "Enter from Piłsudski Square beside the surviving arcade. Walk toward the fountain on the central avenue, turn back to see the long axis, then take a side path for a quieter return.",
+        "observation": "Compare the formal line of statues with the curved paths toward the water. A picture from the main avenue explains the layout better than a close-up of the fountain alone.",
+        "photo": "Take one frame along the avenue and one from a curved side path.",
+        "faq": [
+          "Where is the old palace axis easiest to see?",
+          "Start on the main avenue between the arcade and fountain and turn back toward the square."
+        ],
+        "hours": "Use the public park paths in daylight. Check signs if paths or the fountain are under maintenance.",
+        "access": "No park ticket is needed. Some secondary paths can be less even than the broad central avenue."
+      },
+      "pl": {
+        "title": "Ogród Saski",
+        "intro": "Przejdź prostą osią ogrodu królewskiego do fontanny i wróć spokojniejszą alejką.",
+        "history": "Ogród udostępniono mieszkańcom w 1727 roku, gdy sascy władcy tworzyli reprezentacyjną oś pałacowo-ogrodową. Pałac nie zamyka już alei tak jak dawniej, ale prosta droga zachowała historyczną oś widokową.",
+        "route": "Wejdź od placu Piłsudskiego obok zachowanej arkady. Idź główną aleją ku fontannie, obejrzyj się na oś, a na powrót wybierz boczną ścieżkę.",
+        "observation": "Porównaj uporządkowany szereg rzeźb z krętymi ścieżkami w stronę wody. Ujęcie z alei lepiej tłumaczy układ ogrodu niż zbliżenie samej fontanny.",
+        "photo": "Zrób jedno zdjęcie wzdłuż głównej alei, drugie z krętej ścieżki.",
+        "faq": [
+          "Skąd najlepiej widać dawną oś pałacową?",
+          "Stań na głównej alei między arkadą a fontanną i odwróć się w stronę placu."
+        ],
+        "hours": "Wybierz spacer za dnia. Sprawdź oznaczenia, jeżeli alejki lub fontanna są w remoncie.",
+        "access": "Wstęp do ogrodu jest bezpłatny. Część bocznych alejek ma mniej równą nawierzchnię od głównej."
+      },
+      "zh": {
+        "title": "萨克森花园",
+        "intro": "沿皇家花园的直线走到喷泉，再挑一条安静的小径折返。",
+        "history": "花园于1727年向公众开放，当时萨克森王朝正在营造一条气势宏大的宫殿与花园轴线。昔日宫殿已不再完整地封闭主景，但笔直的林荫道仍保留着原来的视线。",
+        "route": "从毕苏斯基广场残存的拱廊旁入园，沿主道走向喷泉，然后回望广场，返回时换一条侧道。",
+        "observation": "比较成列雕像形成的规整节奏与通向水边的弯曲小径。从主道稍远处把雕像、树列和喷泉放进同一画面，更能说明花园的布局。",
+        "photo": "沿主道拍一张，再从弯曲的小径拍一张。",
+        "faq": [
+          "哪里最容易看清昔日的宫苑轴线？",
+          "站在拱廊和喷泉之间的主道上，转身朝广场方向看。"
+        ],
+        "hours": "适合白天沿园路步行。如小径或喷泉在维护，按现场指示通行。",
+        "access": "公园无需门票。部分支路路面可能没有宽阔的主路平整。"
+      },
+      "ru": {
+        "title": "Саксонский сад",
+        "intro": "Пройдите по прямой оси королевского сада к фонтану и вернитесь тихой дорожкой.",
+        "history": "Сад открыли для публики в 1727 году, когда саксонские правители создавали в Варшаве дворцово-парковую ось. Дворец уже не замыкает перспективу, но прямая аллея сохранила её направление.",
+        "route": "Войдите с площади Пилсудского у сохранившейся аркады. Идите к фонтану, оглянитесь вдоль главной оси, затем возвращайтесь одной из боковых дорожек.",
+        "observation": "Сопоставьте строгий ряд статуй с извилистыми тропинками у воды. Фотография с главной аллеи покажет замысел сада лучше, чем крупный план фонтана.",
+        "photo": "Сделайте один кадр вдоль главной аллеи, другой — с извилистой боковой дорожки.",
+        "faq": [
+          "Где лучше всего видна старая дворцовая ось?",
+          "Встаньте на главной аллее между аркадой и фонтаном и обернитесь к площади."
+        ],
+        "hours": "Гуляйте по общедоступным дорожкам днём. При ремонте дорожек или фонтана следуйте указателям.",
+        "access": "Вход в сад свободный. Покрытие боковых дорожек местами менее ровное, чем на главной аллее."
+      },
+      "de": {
+        "title": "Sächsischer Garten",
+        "intro": "Folgen Sie der geraden Achse des königlichen Gartens zum Brunnen und nehmen Sie einen ruhigeren Rückweg.",
+        "history": "Der Garten öffnete 1727 für die Öffentlichkeit. Die sächsischen Herrscher ließen damals eine große Schloss- und Gartenachse anlegen. Das Schloss schließt die Allee heute nicht mehr ab, doch die gerade Sichtlinie blieb erhalten.",
+        "route": "Betreten Sie den Garten vom Piłsudski-Platz neben der erhaltenen Arkade. Folgen Sie der Hauptallee zum Brunnen, blicken Sie zurück und wählen Sie für den Rückweg einen Seitenpfad.",
+        "observation": "Vergleichen Sie die streng gereihten Skulpturen mit den geschwungenen Wegen zum Wasser. Ein Bild entlang der Allee verdeutlicht die Anlage besser als eine Nahaufnahme des Brunnens.",
+        "photo": "Fotografieren Sie einmal entlang der Allee und einmal von einem geschwungenen Seitenweg.",
+        "faq": [
+          "Wo erkennt man die alte Schlossachse am besten?",
+          "Gehen Sie auf die Hauptallee zwischen Arkade und Brunnen und wenden Sie sich zum Platz."
+        ],
+        "hours": "Nutzen Sie die Wege bei Tageslicht und beachten Sie Schilder bei Arbeiten an Wegen oder Brunnen.",
+        "access": "Der Park ist frei zugänglich. Manche Seitenwege sind unebener als die breite Hauptallee."
+      }
+    }
+  },
+  {
+    "slug": "tomb-unknown-soldier",
+    "name": "Grób Nieznanego Żołnierza",
+    "address": "plac Marszałka Józefa Piłsudskiego",
+    "kind": "memorial",
+    "manager": null,
+    "source": "https://go2warsaw.pl/en/warsaw-fights/",
+    "visitorSource": "https://warsawquest.go2warsaw.pl/en/zmiana-warty-przy-grobie-nieznanego-zolnierza/",
+    "photoSource": "https://commons.wikimedia.org/wiki/File:Grob_Nieznanego_Zo%C5%82nierza_w_Warszawie_2010_%282%29.JPG",
+    "duration": "10–20",
+    "copy": {
+      "en": {
+        "title": "Tomb of the Unknown Soldier",
+        "intro": "See how a remnant of the Saxon Palace became Warsaw’s memorial to the unknown soldier.",
+        "history": "In 1925 an unidentified soldier was buried beneath the colonnade of the Saxon Palace. The small arcade that survives the palace now stands in an open square; its original purpose is easier to understand from a distance.",
+        "route": "Approach from the open side of Piłsudski Square, then follow the edge toward the Saxon Garden. The long view shows how narrow the remaining section is compared with the footprint of the former palace.",
+        "observation": "Look through the arches toward the greenery before approaching the inscriptions and eternal flame. Stay outside the guards’ route, especially during ceremonies.",
+        "photo": "Use the open square for a wide frame without stepping into the area used by guards.",
+        "faq": [
+          "What is the arcade above the tomb?",
+          "It is a surviving part of the Saxon Palace colonnade. View it from the open square to see the fragment clearly."
+        ],
+        "hours": "View the memorial from the public square. Ceremonies may temporarily change the approach.",
+        "access": "Stay clear of the sentries and observe posted boundaries. Viewing from the square is free."
+      },
+      "pl": {
+        "title": "Grób Nieznanego Żołnierza",
+        "intro": "Zobacz, jak fragment Pałacu Saskiego stał się warszawskim miejscem pamięci o nieznanym żołnierzu.",
+        "history": "W 1925 roku pod kolumnadą Pałacu Saskiego pochowano niezidentyfikowanego żołnierza. Zachowany fragment arkad stoi dziś na otwartym placu; z oddalenia łatwiej zrozumieć, że był częścią większego gmachu.",
+        "route": "Podejdź od otwartej strony placu Piłsudskiego, potem kieruj się skrajem w stronę Ogrodu Saskiego. Tak widać różnicę między szerokością arkad a zasięgiem dawnego pałacu.",
+        "observation": "Najpierw spójrz przez łuki na zieleń, następnie odczytaj inskrypcje i zwróć uwagę na znicz. Nie wchodź na trasę warty, zwłaszcza podczas uroczystości.",
+        "photo": "Wykorzystaj szeroki plan placu, nie wchodząc na trasę warty.",
+        "faq": [
+          "Skąd pochodzi arkada nad grobem?",
+          "To ocalała część kolumnady Pałacu Saskiego. Najlepiej widać bryłę z otwartej części placu."
+        ],
+        "hours": "Oglądaj grób z publicznego placu. Uroczystości mogą czasowo zmienić dojście.",
+        "access": "Nie wchodź na trasę wartowników i przestrzegaj oznaczeń. Oglądanie z placu jest bezpłatne."
+      },
+      "zh": {
+        "title": "无名战士墓",
+        "intro": "从毕苏斯基广场看萨克森宫的遗存如何成为纪念无名战士的场所。",
+        "history": "1925年，一名身份不明的士兵被安葬在萨克森宫柱廊下。如今残存的拱廊独立于广场之上，从远处看更容易理解它原本属于一座更大的宫殿。",
+        "route": "从毕苏斯基广场开阔的一侧靠近，再沿边缘走向萨克森花园。站在广场一侧，对照现存拱廊的宽度与原来宫殿占地的尺度。",
+        "observation": "先透过拱券望向花园，再近看铭刻与长明火。仪式或换岗期间要把卫兵的行进路线留空。",
+        "photo": "在空旷一侧取广角，避开卫兵行进的区域。",
+        "faq": [
+          "纪念墓上方的拱廊原来属于哪里？",
+          "它是萨克森宫柱廊保存至今的一段。从开阔的广场侧回看，最容易辨出这段遗存。"
+        ],
+        "hours": "可从公共广场观看。举行仪式期间，步行路线可能临时调整。",
+        "access": "避开卫兵路线，遵守现场边界标志。从广场观看免费。"
+      },
+      "ru": {
+        "title": "Могила Неизвестного Солдата",
+        "intro": "Посмотрите, как уцелевшая часть Саксонского дворца стала мемориалом Неизвестному солдату.",
+        "history": "В 1925 году под колоннадой Саксонского дворца похоронили неизвестного солдата. Сохранившийся фрагмент аркады теперь стоит на открытой площади; издали легче понять, что он был частью гораздо большего здания.",
+        "route": "Подойдите с открытой стороны площади Пилсудского, затем держитесь края по направлению к Саксонскому саду. Так виден масштаб утраченного дворца в сравнении с оставшимися пролётами.",
+        "observation": "Посмотрите сквозь арки на деревья, затем рассмотрите надписи и вечный огонь. Не пересекайте путь почётного караула, особенно во время церемонии.",
+        "photo": "Снимайте общим планом с площади, оставаясь вне маршрута караула.",
+        "faq": [
+          "Что представляет собой аркада над могилой?",
+          "Это сохранившаяся часть колоннады Саксонского дворца. Лучше всего она видна с открытой части площади."
+        ],
+        "hours": "Осматривайте мемориал с площади. Во время церемоний подход может временно меняться.",
+        "access": "Не пересекайте маршрут караула. Осмотр с площади бесплатный."
+      },
+      "de": {
+        "title": "Grabmal des Unbekannten Soldaten",
+        "intro": "Sehen Sie, wie ein Rest des Sächsischen Palais zum Warschauer Ehrenmal wurde.",
+        "history": "1925 wurde ein unbekannter Soldat unter der Kolonnade des Sächsischen Palais beigesetzt. Die erhaltenen Arkaden stehen heute frei auf dem Platz. Aus etwas Entfernung lässt sich ihr früherer Zusammenhang besser erkennen.",
+        "route": "Nähern Sie sich von der offenen Seite des Piłsudski-Platzes und gehen Sie am Rand zum Sächsischen Garten. Vergleichen Sie die Breite des Fragments mit der Ausdehnung des ehemaligen Palastes.",
+        "observation": "Blicken Sie durch die Bögen ins Grün, bevor Sie die Inschriften und die ewige Flamme betrachten. Halten Sie bei Zeremonien den Weg der Ehrenwache frei.",
+        "photo": "Wählen Sie eine weite Ansicht vom Platz und bleiben Sie außerhalb des Weges der Wache.",
+        "faq": [
+          "Woher stammt die Arkade über dem Grab?",
+          "Sie ist ein erhaltener Teil der Kolonnade des Sächsischen Palais. Vom freien Platz ist das Fragment gut zu erkennen."
+        ],
+        "hours": "Betrachten Sie die Gedenkstätte vom öffentlichen Platz aus. Zeremonien können den Zugang vorübergehend ändern.",
+        "access": "Halten Sie den Weg der Wache frei und beachten Sie Absperrungen. Der Blick vom Platz ist frei."
+      }
+    }
+  },
+  {
+    "slug": "polin-museum",
+    "name": "Muzeum Historii Żydów Polskich POLIN",
+    "address": "ul. Mordechaja Anielewicza 6",
+    "kind": "museum",
+    "manager": "Muzeum Historii Żydów Polskich POLIN",
+    "source": "https://www.polin.pl/en/about-museum/building",
+    "visitorSource": "https://polin.pl/en/basic-information",
+    "photoSource": "https://commons.wikimedia.org/wiki/File:Museum_of_the_History_of_Polish_Jews_in_Warsaw_building_0011.jpg",
+    "duration": "120–180",
+    "copy": {
+      "en": {
+        "title": "POLIN Museum",
+        "intro": "Compare POLIN’s glass exterior with its curved entrance hall and plan time for the core exhibition.",
+        "history": "The museum faces the Monument to the Ghetto Heroes in Muranów. Its core exhibition follows a thousand years of Jewish life in Poland; the history of the wartime ghetto forms one chapter in that much longer account.",
+        "route": "From the monument cross the open space toward the glass façade. Enter the hall before going downstairs: the pale curving interior walls make a striking contrast with the straight lines of the exterior.",
+        "observation": "Allow a separate visit for the core exhibition. If you have limited time, choose a historical period at the start rather than rushing through the last galleries.",
+        "photo": "Photograph the glass front from the open space toward the Monument to the Ghetto Heroes.",
+        "faq": [
+          "Is POLIN solely about the wartime ghetto?",
+          "The ghetto is one section of a core exhibition about around a thousand years of Jewish life in Poland."
+        ],
+        "hours": "POLIN is normally closed on Tuesdays. The core exhibition’s last admission is earlier than museum closing.",
+        "access": "Check the ticket type for the core exhibition and allow time for the security check at the entrance."
+      },
+      "pl": {
+        "title": "Muzeum POLIN",
+        "intro": "Porównaj szklaną elewację POLIN z falującym holem i zaplanuj czas na wystawę stałą.",
+        "history": "Muzeum stoi naprzeciw Pomnika Bohaterów Getta na Muranowie. Wystawa stała przedstawia tysiąc lat życia Żydów w Polsce; dzieje getta są jednym z rozdziałów tej znacznie dłuższej opowieści.",
+        "route": "Od pomnika przejdź przez plac ku szklanej fasadzie. Zanim zejdziesz na wystawę, zatrzymaj się w holu. Jasne, zakrzywione ściany kontrastują z prostymi liniami zewnętrznej bryły.",
+        "observation": "Na wystawę stałą zaplanuj osobną wizytę. Przy krótkim pobycie wybierz wcześniej epokę, która cię interesuje, zamiast w pośpiechu przechodzić ostatnie galerie.",
+        "photo": "Ujmij szklaną fasadę od strony otwartego placu przy Pomniku Bohaterów Getta.",
+        "faq": [
+          "Czy POLIN opowiada wyłącznie o getcie?",
+          "Getto jest jednym z rozdziałów wystawy o około tysiącu lat życia Żydów w Polsce."
+        ],
+        "hours": "POLIN jest zwykle zamknięte we wtorki. Ostatnie wejście na wystawę stałą odbywa się przed zamknięciem muzeum.",
+        "access": "Sprawdź rodzaj biletu na wystawę stałą i uwzględnij kontrolę bezpieczeństwa przy wejściu."
+      },
+      "zh": {
+        "title": "波兰犹太人历史博物馆",
+        "intro": "对照 POLIN 的玻璃立面和曲面门厅，并为常设展单独留出时间。",
+        "history": "博物馆位于穆拉努夫区，与犹太区英雄纪念碑相对。核心展讲述波兰犹太人长达千年的生活史，战时隔离区的经历是其中一章。",
+        "route": "从纪念碑穿过开放广场走向玻璃立面，先在入口大厅停步，再下楼看展。外墙笔直，厅内浅色墙体却像峡谷般弯折。",
+        "observation": "核心展适合安排独立的参观时段。时间有限时可先选定感兴趣的历史时期，避免在后段展厅一路赶场。",
+        "photo": "在隔离区英雄纪念碑一侧的开放空间拍摄玻璃立面。",
+        "faq": [
+          "POLIN 是否只介绍华沙犹太隔离区？",
+          "隔离区是常设展的一部分，展览还讲述犹太人在波兰约一千年的生活史。"
+        ],
+        "hours": "POLIN 通常星期二闭馆。常设展的末次入场早于闭馆时间。",
+        "access": "核对常设展的票种，并为入口安检留出时间。"
+      },
+      "ru": {
+        "title": "Музей POLIN",
+        "intro": "Сравните стеклянный фасад POLIN с изогнутыми стенами вестибюля и выделите время на основную выставку.",
+        "history": "Музей в районе Муранув стоит напротив памятника Героям гетто. Основная экспозиция рассказывает о тысяче лет жизни евреев в Польше; история гетто военного времени составляет одну главу этой долгой истории.",
+        "route": "От памятника пересеките открытое пространство к стеклянному фасаду. Перед спуском на выставку задержитесь в вестибюле: светлые изогнутые стены резко контрастируют с прямыми линиями снаружи.",
+        "observation": "Выделите основной экспозиции отдельное посещение. Если времени мало, заранее выберите эпоху, которая вас интересует, чтобы последние залы не пришлось проходить бегом.",
+        "photo": "Снимите стеклянный фасад со свободного пространства у памятника героям гетто.",
+        "faq": [
+          "POLIN посвящён только военному гетто?",
+          "Гетто — один из разделов выставки о примерно тысячелетней истории еврейской жизни в Польше."
+        ],
+        "hours": "По вторникам POLIN обычно закрыт. Последний вход на основную выставку — раньше закрытия музея.",
+        "access": "Проверьте тип билета на основную выставку и оставьте время на досмотр у входа."
+      },
+      "de": {
+        "title": "Museum POLIN",
+        "intro": "Vergleichen Sie die Glasfassade des POLIN mit der geschwungenen Halle und planen Sie Zeit für die Dauerausstellung ein.",
+        "history": "Das Museum in Muranów steht dem Denkmal der Ghettohelden gegenüber. Die Dauerausstellung erzählt von tausend Jahren jüdischen Lebens in Polen; die Geschichte des Ghettos während des Krieges ist ein Kapitel dieser langen Geschichte.",
+        "route": "Überqueren Sie vom Denkmal aus den Platz zur Glasfassade. Bleiben Sie vor dem Abstieg zur Ausstellung im Foyer stehen: Die hellen, geschwungenen Wände bilden einen Gegenpol zu den geraden Linien der Außenhaut.",
+        "observation": "Planen Sie für die Dauerausstellung einen eigenen Besuch ein. Wählen Sie bei wenig Zeit vorab eine Epoche, statt durch die letzten Säle eilen zu müssen.",
+        "photo": "Fotografieren Sie die Glasfront von der freien Fläche beim Denkmal der Ghettohelden.",
+        "faq": [
+          "Geht es im POLIN ausschließlich um das Ghetto der Kriegszeit?",
+          "Das Ghetto ist ein Kapitel einer Ausstellung über rund tausend Jahre jüdischen Lebens in Polen."
+        ],
+        "hours": "Das POLIN ist dienstags in der Regel geschlossen. Der letzte Einlass zur Dauerausstellung liegt vor der Schließzeit.",
+        "access": "Prüfen Sie die Karte für die Dauerausstellung und planen Sie Zeit für die Sicherheitskontrolle ein."
+      }
+    }
+  },
+  {
+    "slug": "warsaw-uprising-monument",
+    "name": "Pomnik Powstania Warszawskiego",
+    "address": "plac Krasińskich",
+    "kind": "outdoor",
+    "manager": null,
+    "source": "https://muzeumwarszawy.pl/en/sladami1944/",
+    "visitorSource": "https://muzeumwarszawy.pl/en/sladami1944/",
+    "photoSource": "https://commons.wikimedia.org/wiki/File:Warszawa_plac_Kasi%C5%84skich.jpg",
+    "duration": "15–25",
+    "copy": {
+      "en": {
+        "title": "Warsaw Uprising Monument",
+        "intro": "Walk between two bronze groups to see how the monument gives the 1944 uprising two different scenes.",
+        "history": "Unveiled in 1989, the monument recalls the Warsaw Uprising of 1944. Two groups tell different parts of the story: insurgents rush from beneath a mass of stone, while other figures descend into a sewer.",
+        "route": "Walk from the Barbican along Długa to Krasiński Square. First take in the whole composition against the Supreme Court building; then follow the figures on foot from the standing group to the lower one.",
+        "observation": "Look at the change in posture rather than only at the weapons. Pair the figures disappearing below the surface with the account of sewer evacuation; this monument concerns the 1944 uprising, distinct from the 1943 ghetto uprising.",
+        "photo": "Take a wide view of both groups from the open side of Krasiński Square.",
+        "faq": [
+          "Does the monument commemorate the 1943 ghetto uprising?",
+          "It commemorates the Warsaw Uprising of 1944. For the ghetto uprising, see the Monument to the Ghetto Heroes opposite POLIN."
+        ],
+        "hours": "Visit the outdoor monument during daylight. Commemorations can change circulation on the square.",
+        "access": "No ticket is needed for the memorial. View the descending figures from the public paving."
+      },
+      "pl": {
+        "title": "Pomnik Powstania Warszawskiego",
+        "intro": "Przejdź między dwiema grupami z brązu, aby odczytać dwie sceny z powstania 1944 roku.",
+        "history": "Odsłonięty w 1989 roku pomnik upamiętnia Powstanie Warszawskie 1944 roku. Jedna grupa powstańców wybiega spod kamiennego bloku, druga schodzi do kanału: te dwie sceny opowiadają o różnych etapach walk.",
+        "route": "Idź od Barbakanu ulicą Długą do placu Krasińskich. Najpierw obejrzyj całą kompozycję na tle Sądu Najwyższego, a potem przejdź od wysokiej grupy do figur przy zejściu.",
+        "observation": "Zwróć uwagę na zmianę postawy postaci. Schodzący do kanału przypominają o ewakuacji. Pomnik dotyczy powstania w 1944 roku; powstanie w getcie miało miejsce w 1943 roku.",
+        "photo": "Z otwartej strony placu Krasińskich ujmij obie grupy.",
+        "faq": [
+          "Czy pomnik upamiętnia powstanie w getcie z 1943 roku?",
+          "Upamiętnia Powstanie Warszawskie z 1944 roku. Pomnik Bohaterów Getta stoi przed POLIN."
+        ],
+        "hours": "Oglądaj pomnik za dnia. Uroczystości mogą zmienić ruch na placu.",
+        "access": "Pomnik można oglądać bez biletu. Postacie schodzące w dół obejrzyj z publicznego chodnika."
+      },
+      "zh": {
+        "title": "华沙起义纪念碑",
+        "intro": "走过两组青铜人物，看看同一座纪念碑如何呈现1944年起义的两个场景。",
+        "history": "纪念碑于1989年揭幕，纪念1944年华沙起义。两组雕塑呈现不同情景：一组起义者从巨大的石块下冲出，另一组则俯身下到地下水道。",
+        "route": "从瓮城沿杜加街走到克拉辛斯基广场，先以最高法院建筑为背景看整体，再从站立的人群走向位置较低的群像。",
+        "observation": "近看人物重心怎样从向前冲变为向下撤离，再联系经下水道疏散的历史。这座碑纪念的是1944年起义，与1943年的华沙犹太区起义属不同事件。",
+        "photo": "从克拉辛斯基广场开阔一侧把两组雕像纳入画面。",
+        "faq": [
+          "这里纪念的是1943年犹太隔离区起义吗？",
+          "这里纪念1944年华沙起义。纪念隔离区起义的隔离区英雄纪念碑在 POLIN 对面。"
+        ],
+        "hours": "建议白天观看室外雕像。纪念活动期间，广场动线可能调整。",
+        "access": "观看纪念碑无需门票。从公共铺地观察向下进入地道的人物。"
+      },
+      "ru": {
+        "title": "Памятник Варшавскому восстанию",
+        "intro": "Пройдите вдоль двух бронзовых групп, чтобы увидеть разные эпизоды восстания 1944 года.",
+        "history": "Открытый в 1989 году памятник посвящён Варшавскому восстанию 1944 года. Одна группа повстанцев выбегает из-под каменной глыбы, другая спускается в канализацию: это разные эпизоды борьбы.",
+        "route": "Идите от Барбакана по улице Длугой к площади Красиньских. Сначала осмотрите всю композицию на фоне Верховного суда, затем пройдите от стоящих фигур к нижней группе.",
+        "observation": "Проследите, как меняются позы участников. Спускающиеся фигуры напоминают об эвакуации через коллекторы. Восстание 1944 года — другое событие, чем восстание в гетто 1943 года.",
+        "photo": "Снимите обе группы с открытой стороны площади Красиньских.",
+        "faq": [
+          "Памятник посвящён восстанию в гетто 1943 года?",
+          "Он посвящён Варшавскому восстанию 1944 года. Памятник героям гетто находится напротив POLIN."
+        ],
+        "hours": "Осматривайте монумент днём. Памятные мероприятия могут менять проход по площади.",
+        "access": "Билет не требуется. Группу спускающихся в канализацию смотрите с общедоступной площадки."
+      },
+      "de": {
+        "title": "Denkmal des Warschauer Aufstands",
+        "intro": "Gehen Sie an beiden Bronzegruppen entlang und entdecken Sie zwei Szenen des Aufstands von 1944.",
+        "history": "Das 1989 enthüllte Denkmal erinnert an den Warschauer Aufstand von 1944. Eine Gruppe von Aufständischen stürmt unter einem Steinblock hervor, eine zweite steigt in die Kanalisation hinab. Beide zeigen unterschiedliche Phasen des Kampfes.",
+        "route": "Gehen Sie vom Barbakan über die Długa zum Krasiński-Platz. Erfassen Sie zunächst die gesamte Gruppe vor dem Obersten Gericht und gehen Sie dann von den stehenden Figuren zur tiefer liegenden Szene.",
+        "observation": "Achten Sie auf die veränderte Körperhaltung beim Abstieg. Die Figuren erinnern an die Evakuierung durch die Kanäle. Das Denkmal gilt dem Aufstand von 1944, der vom Ghettoaufstand 1943 zu unterscheiden ist.",
+        "photo": "Nehmen Sie beide Gruppen von der freien Seite des Krasiński-Platzes auf.",
+        "faq": [
+          "Erinnert das Denkmal an den Ghettoaufstand von 1943?",
+          "Es erinnert an den Warschauer Aufstand von 1944. Das Denkmal der Ghettohelden steht gegenüber dem POLIN."
+        ],
+        "hours": "Besuchen Sie das Denkmal bei Tageslicht. Gedenkveranstaltungen können die Wege am Platz ändern.",
+        "access": "Der Besuch ist frei. Betrachten Sie die hinabsteigenden Figuren von der öffentlichen Fläche."
+      }
+    }
+  },
+  {
+    "slug": "curie-museum",
+    "name": "Muzeum Marii Skłodowskiej-Curie",
+    "address": "ul. Freta 16",
+    "kind": "museum",
+    "manager": "Muzeum Marii Skłodowskiej-Curie w Warszawie",
+    "source": "https://muzeumwarszawy.pl/en/the-city-of-women/",
+    "visitorSource": "https://muzea.waw.pl/en/museums/marie-curie-museum/",
+    "photoSource": "https://commons.wikimedia.org/wiki/File:Kamienica_%C5%81yszkiewicza_w_Warszawie_2020.jpg",
+    "duration": "45–60",
+    "copy": {
+      "en": {
+        "title": "Maria Skłodowska-Curie Museum",
+        "intro": "Find the birthplace of Maria Skłodowska-Curie among the New Town houses and trace her life through small personal objects.",
+        "history": "The physicist and chemist was born in a house on Freta Street in 1867. Family letters, notebooks and photographs bring her Warsaw childhood into the same story as the laboratory work she later carried out in Paris.",
+        "route": "Continue north from the Barbican into the New Town. Walk along Freta to number 16 and read the plaque before going inside; it locates the family story within an ordinary row of townhouses.",
+        "observation": "Use a notebook or letter as a starting point, then compare it with the research instruments. The small-scale objects reward a slow visit; check exhibition access directly with the museum.",
+        "photo": "Include the adjacent façades to show how the museum fits into the residential street.",
+        "faq": [
+          "Which house should I look for on Freta?",
+          "Look for number 16 and its commemorative plaque."
+        ],
+        "hours": "Check the Freta Street museum’s hours, especially if planning a Monday visit.",
+        "access": "Confirm admission and access to the historic building before visiting. The plaque is visible from the street."
+      },
+      "pl": {
+        "title": "Muzeum Marii Skłodowskiej-Curie",
+        "intro": "Odszukaj dom urodzenia Marii Skłodowskiej-Curie wśród kamienic Nowego Miasta i poznaj jej życie przez osobiste pamiątki.",
+        "history": "Uczona urodziła się w kamienicy przy Freta w 1867 roku. Rodzinne listy, zeszyty i fotografie łączą warszawskie dzieciństwo z późniejszą pracą laboratoryjną w Paryżu.",
+        "route": "Od Barbakanu idź na północ w stronę Nowego Miasta. Przy Freta 16 przeczytaj tablicę przed wejściem: osadza rodzinne dzieje w zwykłym szeregu miejskich kamienic.",
+        "observation": "Zacznij od listu lub zeszytu, a potem zestaw go z aparaturą badawczą. Niewielkie eksponaty wymagają czasu; sprawdź w muzeum dostępność wystawy.",
+        "photo": "Pokaż muzeum na tle sąsiednich kamienic.",
+        "faq": [
+          "Którego domu szukać przy Freta?",
+          "Szukaj numeru 16 i tablicy pamiątkowej."
+        ],
+        "hours": "Sprawdź godziny muzeum przy Freta, szczególnie w poniedziałek.",
+        "access": "Przed wizytą sprawdź wstęp i dostępność zabytkowego budynku. Tablica jest widoczna z ulicy."
+      },
+      "zh": {
+        "title": "玛丽·斯克沃多夫斯卡-居里博物馆",
+        "intro": "在新城的联排住宅中找到居里的出生地，从个人遗物认识她的生平。",
+        "history": "这位物理学家和化学家于1867年出生在弗雷塔街的一座联排住宅里。家书、笔记本和照片把她在华沙的童年与日后在巴黎的实验工作连在一起。",
+        "route": "从瓮城向北进入新城，沿弗雷塔街走到16号。进门前先找墙上的纪念牌，看看这户人家在整排民居中的位置。",
+        "observation": "展厅里可先选一封信或一本笔记，再与研究器材对照。许多展品体量很小，近看比迅速走过更有收获；展室开放情况可先向馆方查询。",
+        "photo": "拍摄时带上相邻建筑，保留博物馆所在街道的住宅尺度。",
+        "faq": [
+          "在 Freta 街应该找哪栋楼？",
+          "请找16号及门外的纪念牌。"
+        ],
+        "hours": "查 Freta 街博物馆的开放时间，星期一尤其需要确认。",
+        "access": "出发前核对门票及历史建筑的入口条件。从街上可以看到纪念牌。"
+      },
+      "ru": {
+        "title": "Музей Марии Склодовской-Кюри",
+        "intro": "Найдите дом, где родилась Мария Склодовская-Кюри, и познакомьтесь с её жизнью через личные вещи.",
+        "history": "Учёная родилась в доме на улице Фрета в 1867 году. Семейные письма, тетради и фотографии связывают её варшавское детство с будущей лабораторной работой в Париже.",
+        "route": "От Барбакана идите на север в Новый город. У дома 16 по улице Фрета прочтите памятную доску: историю семьи легче представить среди этого ряда жилых домов.",
+        "observation": "Начните с письма или тетради, затем сравните документ с исследовательскими приборами. Небольшие предметы лучше рассматривать без спешки; доступ в залы уточняйте у музея.",
+        "photo": "Включите соседние фасады, чтобы показать музей в ряду жилых домов.",
+        "faq": [
+          "Какой дом искать на улице Фрета?",
+          "Ищите дом 16 и мемориальную табличку."
+        ],
+        "hours": "Проверьте часы музея на Фрета, особенно если планируете прийти в понедельник.",
+        "access": "Уточните стоимость входа и доступность исторического дома. Табличка видна с улицы."
+      },
+      "de": {
+        "title": "Maria-Skłodowska-Curie-Museum",
+        "intro": "Finden Sie das Geburtshaus von Maria Skłodowska-Curie zwischen den Häusern der Neustadt und entdecken Sie persönliche Erinnerungsstücke.",
+        "history": "Die Physikerin und Chemikerin wurde 1867 in einem Haus an der Freta-Straße geboren. Familienbriefe, Hefte und Fotos verbinden ihre Warschauer Kindheit mit ihrer späteren Laborarbeit in Paris.",
+        "route": "Gehen Sie vom Barbakan nach Norden in die Neustadt. Lesen Sie vor der Hausnummer 16 die Gedenktafel: Das Geburtshaus fügt sich in eine ganz gewöhnliche Reihe von Bürgerhäusern ein.",
+        "observation": "Beginnen Sie mit einem Brief oder Notizbuch und vergleichen Sie es dann mit den Forschungsinstrumenten. Planen Sie Zeit für die kleinen Objekte ein und erkundigen Sie sich beim Museum nach geöffneten Räumen.",
+        "photo": "Nehmen Sie die Nachbarfassaden auf, um die Lage des Museums in der Straße zu zeigen.",
+        "faq": [
+          "Welches Haus ist es in der Freta-Straße?",
+          "Suchen Sie die Hausnummer 16 und die Gedenktafel."
+        ],
+        "hours": "Prüfen Sie die Öffnungszeiten des Museums in der Freta-Straße, besonders für Montag.",
+        "access": "Klären Sie Eintritt und Zugang zum historischen Gebäude. Die Gedenktafel ist von der Straße sichtbar."
+      }
+    }
+  },
+  {
+    "slug": "grand-theatre",
+    "name": "Teatr Wielki – Opera Narodowa",
+    "address": "plac Teatralny 1",
+    "kind": "theatre",
+    "manager": "Teatr Wielki – Opera Narodowa",
+    "source": "https://teatrwielki.pl/en/teatr/history/",
+    "visitorSource": "https://teatrwielki.pl/en/calendar/",
+    "photoSource": "https://commons.wikimedia.org/wiki/File:Grand_Theatre_Warsaw_Aerial_Toni_Klemm_2025_2500px.jpg",
+    "duration": "10–20",
+    "copy": {
+      "en": {
+        "title": "Grand Theatre",
+        "intro": "Take in Corazzi’s long theatre façade from Theatre Square, or check the programme for an opera visit.",
+        "history": "Antonio Corazzi’s opera house was built between 1825 and 1833. Bombing in 1939 devastated the theatre; reconstruction brought the company back to the site in 1965. The monumental front conceals a much larger post-war stage complex.",
+        "route": "From Castle Square take Senatorska to Theatre Square. Look across the square before approaching the portico: the long façade and rooftop chariot are easier to read together from this side.",
+        "observation": "Treat a visit to the square and an evening performance as two different plans. For a performance check the named hall, start time and entrance on the theatre’s own programme.",
+        "photo": "Use the opposite edge of the square to fit the central portico and chariot.",
+        "faq": [
+          "Can I visit Theatre Square without a performance ticket?",
+          "The view of the theatre from Theatre Square is in public space. Consult the programme for entry to the building and auditorium."
+        ],
+        "hours": "See the frontage in daylight or check the theatre programme for a performance.",
+        "access": "The square is public. For a performance, use the entry and hall named on the ticket."
+      },
+      "pl": {
+        "title": "Teatr Wielki",
+        "intro": "Obejrzyj długą fasadę teatru Corazziego z placu Teatralnego lub sprawdź repertuar opery.",
+        "history": "Gmach opery projektu Antonia Corazziego powstał w latach 1825–1833. Bombardowanie w 1939 roku zniszczyło teatr; zespół wrócił tu po odbudowie w 1965 roku. Za reprezentacyjnym frontem kryje się rozległe powojenne zaplecze sceniczne.",
+        "route": "Z placu Zamkowego idź Senatorską do placu Teatralnego. Zanim podejdziesz pod portyk, spójrz z przeciwnej strony placu, skąd widać jednocześnie długą fasadę i kwadrygę na dachu.",
+        "observation": "Spacer po placu i wieczorne przedstawienie zaplanuj osobno. Przed spektaklem sprawdź w repertuarze teatru nazwę sali, godzinę rozpoczęcia i wejście.",
+        "photo": "Z przeciwległej krawędzi placu obejmij portyk i kwadrygę.",
+        "faq": [
+          "Czy na plac Teatralny potrzebny jest bilet na spektakl?",
+          "Widok na teatr jest dostępny z publicznego placu. Zasady wejścia do budynku i na salę podaje teatr."
+        ],
+        "hours": "Fasadę oglądaj za dnia. Na spektakl wybierz termin z repertuaru teatru.",
+        "access": "Plac jest publiczny. Na spektakl kieruj się do wejścia i sali podanych na bilecie."
+      },
+      "zh": {
+        "title": "华沙大剧院",
+        "intro": "从剧院广场看科拉齐设计的长立面，也可按演出日程安排进场。",
+        "history": "科拉齐设计的歌剧院建于1825至1833年。1939年的轰炸严重摧毁了剧院，重建后剧团于1965年重返此地。面向广场的宏大正立面背后，是规模更大的战后舞台设施。",
+        "route": "从城堡广场沿参议员街走到剧院广场，先停在广场另一侧，再走近门廊。从远处可以把长立面和屋顶四马战车一并纳入视野。",
+        "observation": "看外观和晚上观演可分开安排。准备入场时，以剧院节目单上注明的厅名、开演时间和入口为准。",
+        "photo": "站在广场对侧，将中央柱廊和屋顶战车一并收入画面。",
+        "faq": [
+          "没有演出票可以去剧院广场吗？",
+          "剧院广场是公共空间，可从广场看剧院外观。进楼或进剧场请查官方日程。"
+        ],
+        "hours": "可在白天看外观。如想看演出，请查剧院节目表。",
+        "access": "剧院广场可自由到达。观看演出应按门票所列入口和厅名进场。"
+      },
+      "ru": {
+        "title": "Большой театр",
+        "intro": "Осмотрите длинный фасад театра Корацци с Театральной площади или выберите оперу по афише.",
+        "history": "Оперный театр Антонио Корацци построили в 1825–1833 годах. После разрушений 1939 года труппа вернулась в восстановленное здание в 1965 году. За парадным фасадом расположен большой послевоенный сценический комплекс.",
+        "route": "От Замковой площади идите по Сенаторской на Театральную площадь. Прежде чем подойти к портику, взгляните на здание издали: так длинный фасад и квадрига на крыше видны вместе.",
+        "observation": "Осмотр площади и вечерний спектакль лучше планировать отдельно. Проверьте в программе театра название зала, время начала и нужный вход.",
+        "photo": "С противоположной стороны площади включите в кадр портик и колесницу.",
+        "faq": [
+          "Нужен ли билет, чтобы выйти на Театральную площадь?",
+          "Площадь общедоступна. Условия входа в здание и зал уточняйте по афише театра."
+        ],
+        "hours": "Осмотрите фасад днём. Для спектакля выберите время по афише.",
+        "access": "Площадь общедоступна. На спектакль идите к входу и залу, указанным в билете."
+      },
+      "de": {
+        "title": "Großes Theater",
+        "intro": "Betrachten Sie Corazzis lange Theaterfassade vom Theaterplatz oder wählen Sie eine Oper aus dem Spielplan.",
+        "history": "Antonio Corazzis Opernhaus entstand zwischen 1825 und 1833. Bomben verwüsteten es 1939; nach dem Wiederaufbau kehrte das Ensemble 1965 zurück. Hinter der repräsentativen Front erstreckt sich ein wesentlich größerer Bühnenkomplex der Nachkriegszeit.",
+        "route": "Gehen Sie vom Schlossplatz über die Senatorska zum Theaterplatz. Bleiben Sie vor dem Gang zum Portikus auf der Gegenseite stehen: Von dort sind die lange Fassade und die Quadriga auf dem Dach zusammen sichtbar.",
+        "observation": "Planen Sie die Besichtigung des Platzes und einen Vorstellungsbesuch getrennt. Prüfen Sie für den Abend Saal, Beginn und Eingang im Spielplan des Theaters.",
+        "photo": "Nehmen Sie Portikus und Quadriga vom gegenüberliegenden Rand des Platzes auf.",
+        "faq": [
+          "Brauche ich für den Theaterplatz eine Vorstellungskarte?",
+          "Der Theaterplatz ist öffentlich zugänglich. Hinweise zum Gebäude und Saal stehen im Spielplan."
+        ],
+        "hours": "Betrachten Sie die Fassade bei Tageslicht oder wählen Sie eine Vorstellung aus dem Spielplan.",
+        "access": "Der Platz ist öffentlich. Nutzen Sie für eine Vorstellung den auf der Karte angegebenen Eingang und Saal."
+      }
+    }
+  },
+  {
+    "slug": "zacheta-gallery",
+    "name": "Zachęta – Narodowa Galeria Sztuki",
+    "address": "plac Stanisława Małachowskiego 3",
+    "kind": "museum",
+    "manager": "Zachęta – Narodowa Galeria Sztuki",
+    "source": "https://zacheta.art.pl/en",
+    "visitorSource": "https://zacheta.art.pl/public/upload/download/Rules%20for%20visiting%20exhibitions%20at%20Zach%C4%99ta%20_EN.pdf",
+    "photoSource": "https://commons.wikimedia.org/wiki/File:Zach%C4%99ta_-_budynek_z_oddalenia.jpg",
+    "duration": "45–90",
+    "copy": {
+      "en": {
+        "title": "Zachęta National Gallery of Art",
+        "intro": "Read the names on Zachęta’s historic façade before choosing a contemporary exhibition inside.",
+        "history": "The building opened in 1900 for the Society for the Encouragement of Fine Arts. Today it houses a gallery of contemporary art; the historic façade and changing exhibitions offer two different time frames for a visit.",
+        "route": "Walk from Piłsudski Square toward Małachowski Square. Start opposite the gallery, where you can read the names on the façade, then approach the steps and compare their scale with the entrance doors.",
+        "observation": "Look for the names Matejko, Chełmoński and Grottger before going inside. Check the gallery programme: different shows can occupy different rooms, so pick an exhibition rather than expecting a fixed sequence of paintings.",
+        "photo": "Start across Małachowski Square to keep the historic façade in frame.",
+        "faq": [
+          "Does Zachęta have a fixed permanent visitor route?",
+          "The public programme changes with the exhibitions. Check which exhibitions are on before choosing your visit."
+        ],
+        "hours": "Check the gallery’s exhibition programme and hours before setting out.",
+        "access": "Check admission for the exhibition you choose and ask reception for its accessible entrance."
+      },
+      "pl": {
+        "title": "Zachęta – Narodowa Galeria Sztuki",
+        "intro": "Odczytaj nazwiska na fasadzie Zachęty i wybierz w środku wystawę sztuki współczesnej.",
+        "history": "Gmach otwarto w 1900 roku dla Towarzystwa Zachęty Sztuk Pięknych. Dziś działa tu galeria sztuki współczesnej. Historyczna fasada i zmienne wystawy opowiadają o dwóch różnych epokach.",
+        "route": "Z placu Piłsudskiego przejdź na plac Małachowskiego. Zacznij naprzeciw galerii, gdzie widać napisy na fasadzie, a potem podejdź do schodów i porównaj ich skalę z drzwiami.",
+        "observation": "Przed wejściem odszukaj nazwiska Matejki, Chełmońskiego i Grottgera. Sprawdź program galerii: sale służą różnym wystawom, więc lepiej wybrać ekspozycję niż oczekiwać stałego układu obrazów.",
+        "photo": "Stań po drugiej stronie placu Małachowskiego, aby objąć historyczną fasadę.",
+        "faq": [
+          "Czy Zachęta ma stałą trasę zwiedzania?",
+          "Program zmienia się wraz z wystawami. Sprawdź, które wystawy są dostępne w dniu wizyty."
+        ],
+        "hours": "Przed wyjściem sprawdź program wystaw i godziny galerii.",
+        "access": "Sprawdź wstęp na wybraną wystawę i zapytaj recepcję o dostępne wejście."
+      },
+      "zh": {
+        "title": "扎亨塔国家美术馆",
+        "intro": "先读扎亨塔历史立面上的名字，再选择一场正在举办的当代艺术展。",
+        "history": "馆舍于1900年为美术促进协会开放，今天主要展示当代艺术。建筑立面与不断更替的展览构成了两条不同的观看线索。",
+        "route": "从毕苏斯基广场走向马瓦霍夫斯基广场。先在馆对面辨认立面上的题字，再接近台阶，对照门洞与整段阶梯的尺度。",
+        "observation": "进门前找找马泰伊科、海乌蒙斯基和格罗特格三位艺术家的姓氏。展厅会随项目布置，行前可先选一个感兴趣的展览。",
+        "photo": "从马瓦霍夫斯基广场对面拍摄，较容易拍全立面。",
+        "faq": [
+          "扎亨塔有固定参观路线吗？",
+          "展览会更换，开放的展厅随之改变。请按参观当天的展览安排选择。"
+        ],
+        "hours": "出发前核对美术馆当天的展览与开放安排。",
+        "access": "确认所选展览的入场方式。如有无障碍需求，请向接待处询问入口。"
+      },
+      "ru": {
+        "title": "Национальная художественная галерея Захента",
+        "intro": "Прочтите имена на историческом фасаде «Захенты» и выберите выставку современного искусства.",
+        "history": "Здание открылось в 1900 году для Общества поощрения изящных искусств. Сейчас здесь показывают современное искусство: исторический фасад и сменные выставки рассказывают о разных эпохах.",
+        "route": "От площади Пилсудского пройдите к площади Малаховского. Начните напротив галереи, откуда видны надписи, затем подойдите к ступеням и сравните их масштаб с входными дверями.",
+        "observation": "До входа найдите фамилии Матейко, Хелмоньского и Гротгера. Посмотрите программу: в залах меняются выставки, так что лучше выбрать конкретную экспозицию, чем искать постоянный маршрут по картинам.",
+        "photo": "С противоположной стороны площади Малаховского снимите фасад целиком.",
+        "faq": [
+          "Есть ли в галерее постоянный маршрут осмотра?",
+          "Программа меняется вместе с выставками. Перед визитом проверьте, какие выставки открыты."
+        ],
+        "hours": "Перед поездкой проверьте выставки и часы работы галереи.",
+        "access": "Уточните вход на выбранную выставку и спросите в приёмной о доступном входе."
+      },
+      "de": {
+        "title": "Nationale Kunstgalerie Zachęta",
+        "intro": "Lesen Sie die Namen an der historischen Fassade der Zachęta und wählen Sie eine aktuelle Kunstausstellung.",
+        "history": "Das Gebäude wurde 1900 für die Gesellschaft zur Förderung der Schönen Künste eröffnet. Heute zeigt die Galerie zeitgenössische Kunst. Die historische Fassade und die wechselnden Ausstellungen erschließen zwei verschiedene Zeitebenen.",
+        "route": "Gehen Sie vom Piłsudski-Platz zum Małachowski-Platz. Beginnen Sie gegenüber, um die Namen an der Fassade zu lesen, und vergleichen Sie dann die Breite der Treppe mit den Eingangstüren.",
+        "observation": "Suchen Sie vor dem Eintritt die Namen Matejko, Chełmoński und Grottger. Prüfen Sie das aktuelle Programm: Die Räume werden wechselnd bespielt und bieten keinen unveränderlichen Gemälderundgang.",
+        "photo": "Fotografieren Sie von der anderen Seite des Małachowski-Platzes, um die Fassade einzufangen.",
+        "faq": [
+          "Gibt es in der Zachęta einen festen Rundgang?",
+          "Das Programm wechselt mit den Ausstellungen. Prüfen Sie vor dem Besuch, was geöffnet ist."
+        ],
+        "hours": "Prüfen Sie vorab das Ausstellungsprogramm und die Öffnungszeiten.",
+        "access": "Klären Sie den Eintritt zur gewählten Ausstellung und fragen Sie am Empfang nach dem barrierefreien Eingang."
+      }
+    }
+  },
+  {
+    "slug": "carmelite-church",
+    "name": "Kościół Seminaryjny",
+    "address": "Krakowskie Przedmieście 52/54",
+    "kind": "church",
+    "manager": "Wyższe Metropolitalne Seminarium Duchowne w Warszawie",
+    "source": "https://www.sacredarchitecture.org/articles/continuity_in_purpose_warsaw_after_world_war_ii",
+    "visitorSource": "https://wmsd.waw.pl/kancelaria/porzadek-nabozenstw/",
+    "photoSource": "https://commons.wikimedia.org/wiki/File:Ko%C5%9Bci%C3%B3%C5%82_pokarmelicki_Wniebowzi%C4%99cia_Naj%C5%9Bwi%C4%99tszej_Maryi_Panny_i_%C5%9Bw._J%C3%B3zefa_Oblubie%C5%84ca_w_Warszawie_2020.jpg",
+    "duration": "10–20",
+    "copy": {
+      "en": {
+        "title": "Seminary Church of the Assumption",
+        "intro": "Pause beside the Presidential Palace to read Efraim Szreger’s classical church front.",
+        "history": "Known locally as the Seminary Church, this was the church of the Discalced Carmelites. Its eighteenth-century façade by Efraim Szreger turns a walk along the Royal Route into a short lesson in classical symmetry.",
+        "route": "From the Presidential Palace continue north on Krakowskie Przedmieście. Stop on the opposite pavement to distinguish the church front from the neighbouring buildings before moving closer.",
+        "observation": "Trace the central axis from doorway to pediment, then compare the outlines of the towers on either side. This is a working church: visit the exterior during services and return for the interior when worship is over.",
+        "photo": "Use the opposite pavement to align the main door and pediment before photographing the whole frontage.",
+        "faq": [
+          "Which church is directly beside the Presidential Palace?",
+          "The Seminary Church, formerly the church of the Discalced Carmelites, stands immediately north of the palace."
+        ],
+        "hours": "Consult the seminary’s service schedule for an interior visit.",
+        "access": "The façade is visible from the public pavement. Take care not to block worshippers at the doorway."
+      },
+      "pl": {
+        "title": "Kościół Seminaryjny",
+        "intro": "Zatrzymaj się obok Pałacu Prezydenckiego przed klasycystyczną fasadą Efraima Szregera.",
+        "history": "Dzisiejszy kościół seminaryjny należał dawniej do karmelitów bosych. Osiemnastowieczna fasada Efraima Szregera pozwala podczas spaceru Traktem Królewskim przyjrzeć się klasycznej symetrii.",
+        "route": "Od Pałacu Prezydenckiego idź na północ Krakowskim Przedmieściem. Zatrzymaj się na przeciwległym chodniku, żeby odróżnić front świątyni od sąsiedniej zabudowy, a dopiero potem podejdź bliżej.",
+        "observation": "Prześledź oś od drzwi po zwieńczenie i porównaj zarysy obu wież. Świątynia nadal służy wiernym; w czasie nabożeństwa obejrzyj elewację i wróć do wnętrza po jego zakończeniu.",
+        "photo": "Z przeciwległego chodnika ustaw drzwi i tympanon w jednej osi.",
+        "faq": [
+          "Jaki kościół stoi bezpośrednio przy Pałacu Prezydenckim?",
+          "Od północy przylega do niego kościół seminaryjny, dawniej kościół karmelitów bosych."
+        ],
+        "hours": "Przed wejściem sprawdź porządek nabożeństw w seminarium.",
+        "access": "Fasadę widać z publicznego chodnika. Przy drzwiach zostaw miejsce osobom idącym na nabożeństwo."
+      },
+      "zh": {
+        "title": "圣母升天神学院教堂",
+        "intro": "在总统府旁停步，看看埃弗拉伊姆·什雷格设计的古典主义教堂正面。",
+        "history": "这座当地人称为“神学院教堂”的建筑曾属于赤足加尔默罗会。施雷格尔设计的18世纪立面，让王家大道上的步行游客有机会细看古典建筑的对称构图。",
+        "route": "从总统府沿克拉科夫郊区街向北，先在对侧人行道上找出教堂立面和相邻街屋的分界，再靠近看细节。",
+        "observation": "由门洞向上追踪立面中轴，比较两侧塔楼轮廓。教堂仍举行礼拜；遇到仪式时可先看外观，结束后再进内参观。",
+        "photo": "从对侧人行道让大门与三角山花居中，再拍摄整个立面。",
+        "faq": [
+          "总统府紧邻的是哪座教堂？",
+          "总统府北侧是神学院教堂，前身是赤足加尔默罗会教堂。"
+        ],
+        "hours": "计划进入教堂时，先查神学院公布的礼拜安排。",
+        "access": "可从公共人行道观看外观。请让开入口，方便参加礼拜的人进出。"
+      },
+      "ru": {
+        "title": "Семинарская церковь Успения",
+        "intro": "Остановитесь у Президентского дворца, чтобы рассмотреть классический фасад Эфраима Шрегера.",
+        "history": "Нынешняя семинарская церковь прежде принадлежала босым кармелитам. Фасад XVIII века работы Эфраима Шрёгера позволяет увидеть, как устроена классическая симметрия зданий Королевского тракта.",
+        "route": "От Президентского дворца идите на север по Краковскому предместью. Начните на противоположном тротуаре, чтобы отделить фасад церкви от соседней застройки, затем подойдите ближе.",
+        "observation": "Проследите ось от портала до фронтона и сравните очертания двух башен. Церковь действующая: во время службы осмотрите фасад, а внутрь вернитесь после её окончания.",
+        "photo": "С противоположного тротуара совместите в центре кадра главный вход и фронтон.",
+        "faq": [
+          "Какая церковь стоит рядом с Президентским дворцом?",
+          "Непосредственно к северу расположена семинарская церковь, бывший храм босых кармелитов."
+        ],
+        "hours": "Для осмотра интерьера сверьтесь с расписанием богослужений семинарии.",
+        "access": "Фасад виден с тротуара. Не задерживайтесь в дверях, если идут прихожане."
+      },
+      "de": {
+        "title": "Seminarkirche Mariä Himmelfahrt",
+        "intro": "Halten Sie beim Präsidentenpalast und betrachten Sie Efraim Szregers klassizistische Kirchenfassade.",
+        "history": "Die heutige Seminarkirche gehörte einst den Unbeschuhten Karmeliten. Ihre Fassade aus dem 18. Jahrhundert von Efraim Szreger zeigt auf einem Spaziergang am Königsweg besonders anschaulich den Aufbau klassischer Symmetrie.",
+        "route": "Gehen Sie vom Präsidentenpalast auf der Krakowskie Przedmieście nach Norden. Halten Sie zunächst auf der anderen Straßenseite, um die Kirchenfront von den Nachbarhäusern zu unterscheiden.",
+        "observation": "Folgen Sie der Mittelachse vom Portal bis zum Giebel und vergleichen Sie die Umrisse der beiden Türme. Während eines Gottesdienstes können Sie zunächst die Fassade betrachten und danach für den Innenraum zurückkommen.",
+        "photo": "Richten Sie vom gegenüberliegenden Gehweg Hauptportal und Giebel mittig aus.",
+        "faq": [
+          "Welche Kirche steht direkt neben dem Präsidentenpalast?",
+          "Nördlich des Palasts steht die Seminarkirche, einst Kirche der Unbeschuhten Karmeliten."
+        ],
+        "hours": "Prüfen Sie für den Innenraum die Gottesdienstzeiten des Seminars.",
+        "access": "Die Fassade ist vom Bürgersteig sichtbar. Halten Sie den Eingang für Gottesdienstbesucher frei."
+      }
+    }
+  }
+]
